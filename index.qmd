@@ -1,6 +1,9 @@
 ---
 title: "PolarWatch Data Management"
 ---
+:::{.callout-warning title="Note"}
+This document is a working copy and not intended for use.
+:::
 
 This repository serves as a  resource for the data management practices of PolarWatch, detailing the organization's approach to handling remote sensing data served on PolarWatch servers. It includes documents and plans dedicated to the management of data throughout its lifecycle.
 
