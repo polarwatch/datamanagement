@@ -2,7 +2,7 @@
 title: "PolarWatch Data Management"
 ---
 
-This repository includes documents and plans of PolarWatch data management.
+This repository serves as a  resource for the data management practices of PolarWatch, detailing the organization's approach to handling remote sensing data served on PolarWatch servers. It includes documents and plans dedicated to the management of data throughout its lifecycle.
 
 ### Data Management Plan (DMP) 
 A Data Management Plan (DMP) is a living document that details the data lifecycle, encompassing data creation, processing, access, ownership, and management strategies and tools.
@@ -25,7 +25,9 @@ Diagram: General PolarWatch data workflow
 The DMP Page provides an overview of the DMP components along with their detailed descriptions.
 
 ### AI-Ready Checklist
-This checklist, created in collaboration with research communities, aims to provide comprehensive metadata to support AI-ready research.
+This checklist is developed through a collaboration of ESIP Data Readiness Cluster members include representatives from NOAA, NASA, USGS, and other organizations. The checklist will be updated periodically to reflect community feedback. The checklist aims to provide comprehensive metadata to support AI-ready research.
+
+source: https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md
 
 ### Data List
 The Data List page presents a catalog of PolarWatch data products, including links to their respective DMP and AI-Ready documentation.
