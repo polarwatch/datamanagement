@@ -1,0 +1,115 @@
+
+# Data Management Plan (DMP)
+::: {.callout-warning title="Not for use"}
+This document is a working copy and not intended for use.
+:::
+## Data Description 
+This dataset represents the 1km Blended sea ice concentration for the Arctic, 
+utilizing data from the AMSR2 instrument aboard the GCOM-W1 satellite and VIIRS 
+instrument on NOAA-21. The daily sea ice concentration values are stored in the 1 km EASE2-Grid format.
+
+These data products are developed through a collaboration between NESDIS and the University of Wisconsin. 
+For more information on the algorithm development, you can visit the provided link: [Algorithm Development](https://www.mdpi.com/2072-4292/13/15/2982).
+
+
+The data file, available in NetCDF format, is generated daily with a 2-day delay for data availability. 
+For instance, the data file for February 10, 2024, becomes accessible on February 12, 2024. 
+File sizes vary approximately between 15MB and 360MB, and specific file sizes can be checked on the ERDDAP file page.
+
+Distribution of the data files is managed through [PolarWatch ERDDAP](https://polarwatch.noaa.gov/erddap/info/index.html?page=1&itemsPerPage=1000), 
+where they can also be previewed in the [PolarWatch Catalog](https://polarwatch.noaa.gov/catalog/ice-conc-nh-blended-nesdis/preview/).
+
+:::{.callout-important title="disclaimer"}
+PolarWatch ERDDAP enables data subsetting and downloading in various formats through the Data Download Form. However, 
+please note that this dataset is provided in EASE-2 (EPSG:6931) coordinates. 
+For optimal results, direct file downloads from ERDDAP File page are strongly recommended.
+:::
+
+
+## Process Description
+
+Daily processing is automated and scheduled to run daily to check, download, compress and 
+store and backup newly created netcdf file from the FTP server.
+
+```{mermaid}
+flowchart LR
+  A(File on FTP Server) -->B(File Download to PolarWatch)
+  B --> C(Compressed, Stored, Backed up)
+  C --> D(Accessible on ERDDAP, Catalog)
+```
+
+1. PolarWatch checks and downloads daily netcdf file from NESDIS/Univ of Wisconin daily (scheduled cron job)
+2. PolarWatch compresses netcdf file and store on a data server to be accessible
+3. PolarWatch backsup data file
+
+## Metadata
+
+PolarWatch provides extensive metadata on ERDDAP in addition to embedded metadata in NetCDF.  The metadata standard used is CF-16, 
+and both ERDDAP metadata and NetCDF metadata are machine readable.
+
+
+The metadata was created by the data product developer with the template/guidelines provided by PolarWatch.  [link to template]()
+
+ERDDAP metadata: https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_nhem_daily/index.html
+
+
+::: {.callout-tip title="Projection attributes"}
+For software readable projection information is stored in the following attributes ```srid```, ```proj4text```, ```grid_mapping```.
+:::
+
+
+## Storage and Backup
+Data are stored in directory on the PolarWatch data server and ERDDAP points to the directory.
+Data are automatically backed up on a PolarWatch backup server.  
+In the case of the event of an accident, the recovery will be handled by PolarWatch team. 
+
+
+## Policies for Access and Sharing
+Data are publically accessible without authentication.  ERDDAP is the primary data distribution system with a web interface.  
+
+[PolarWatch Catalog](https://polarwatch.noaa.gov/catalog/) has a list of data products users can search and view. 
+Users can visit the catalog to search for the data product.  
+
+
+* Users can go to the ERDDAP Webpage to preview, subset data to download or just download the files.
+* Users can use [ERDDAP RESTful web services](https://polarwatch.noaa.gov/erddap/rest.html) for software to access data.
+* [Tutorials and code samples](https://github.com/coastwatch-training/CoastWatch-Tutorials) are available to access data and metadata in commonly used languages (i.e. R, Python)
+    
+
+::: {.callout-tip title="Note"}
+CHECK FOR STANDARD LICENSE
+:::
+
+## Plans for archiving data, samples, and other research products, and for preservation of access to them
+
+This section should cover your long-term strategy for preserving the data produced during your project. See section on data archiving.
+
+
+* What data will be preserved for the long-term?
+* What is the long-term strategy for maintaining, curating and archiving the data?
+* Where will it be preserved?
+* Which archive/repository/database have you identified as a place to deposit data?
+* What procedures does your intended long-term data storage facility have in place for preservation and backup?
+* How long will/should data be kept beyond the life of the project?
+* Data transformations/formats needed
+* What transformations will be necessary to prepare data for preservation / data sharing?
+* What metadata/ documentation will be submitted alongside the data or created on deposit/ transformation in order to make the data reusable?
+* What related information will be deposited?
+
+::: {.callout-tip title="TODO"}
+This is a good discussion topic
+:::
+
+
+## Roles and Responsibilities
+
+* The PolarWatch Operations Manager is tasked with the implementation, documentation, and periodic updating of the Data Management Plan.
+* The data workflow is designed to be automated. This process is closely monitored, with automatic notifications being sent out in the event of any errors. [TODO: Further details or steps to be added].
+* The documentation for internal data processing is accessible internally, ensuring that relevant team members can access it as needed. Additionally, all scripts associated with this processing are stored in a private repository.
+
+
+::: {.callout-tip title="TODO"}
+* Implement QC (readin metadata and check for attributes?)
+* Check failure and notify ops manager?
+* Add more info about projection attributes in metadata section
+:::

@@ -2,18 +2,21 @@ project:
   type: website
 
 website:
-  title: "datamanagement"
+  title: PolarWatch Data Management
   navbar:
+    background: primary
+    search: true
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Data Management Plan"
+        file: dmp_template.qmd
+      - text: "AI Ready Checklist"
+        file: ai-ready-data-checklist-v.1.0.md
+      - text: "Data List"
+        file: data.md       
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
-
-
 

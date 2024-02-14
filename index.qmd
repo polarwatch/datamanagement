@@ -1,0 +1,31 @@
+---
+title: "PolarWatch Data Management"
+---
+
+This repository includes documents and plans of PolarWatch data management.
+
+### Data Management Plan (DMP) 
+A Data Management Plan (DMP) is a living document that details the data lifecycle, encompassing data creation, processing, access, ownership, and management strategies and tools.
+
+The objective of PolarWatch is to disseminate remote sensing data, ensuring they are readily available. Consequently, the PolarWatch DMP focuses on aspects of the data lifecycle pertinent to its operations, such as data ingestion, processing, quality control, and management.
+
+```{mermaid}
+flowchart LR
+  A(Get Data from Source) -->B(Process, Q/C Data)
+  A --> D(Create Metadata)
+  B --> C(Store Data)
+  C --> G(Backup Data)
+  B --> D(Create Metadata)
+  C --> F(Make Data Accessible)
+  D --> F
+```
+Diagram: General PolarWatch data workflow
+
+
+The DMP Page provides an overview of the DMP components along with their detailed descriptions.
+
+### AI-Ready Checklist
+This checklist, created in collaboration with research communities, aims to provide comprehensive metadata to support AI-ready research.
+
+### Data List
+The Data List page presents a catalog of PolarWatch data products, including links to their respective DMP and AI-Ready documentation.
