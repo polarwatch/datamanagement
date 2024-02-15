@@ -6,6 +6,7 @@ This document is a working copy.
 :::
 
 This repository serves as a  resource for the data management practices of PolarWatch. It includes documents and plans dedicated to the management of data throughout its lifecycle.
+
 ### Data Management Plan (DMP) 
 A Data Management Plan (DMP) is a living document that details the data lifecycle, encompassing data creation, processing, access, ownership, and management strategies and tools.
 
