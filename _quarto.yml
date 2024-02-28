@@ -11,7 +11,7 @@ website:
         file: dmp_template.qmd
       - text: "AI Ready Checklist"
         file: ai-ready-data-checklist-v.1.0.md
-      - text: "Data List"
+      - text: "Metadata List"
         file: data.md       
 
 format:
