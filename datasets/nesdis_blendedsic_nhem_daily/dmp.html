@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -66,6 +66,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -88,17 +91,24 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../dmp_template.html"> 
-<span class="menu-text">Data Management Plan</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guidelines" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Guidelines</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-guidelines">    
+        <li>
+    <a class="dropdown-item" href="../../guidelines/metadata.html">
+ <span class="dropdown-text">PolarWatch Metadata</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../ai-ready-data-checklist-v.1.0.html"> 
-<span class="menu-text">AI Ready Checklist</span></a>
+        <li>
+    <a class="dropdown-item" href="../../guidelines/ai-ready-data-checklist-v.1.0.html">
+ <span class="dropdown-text">AI Ready Checklist</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../data.html"> 
-<span class="menu-text">Metadata List</span></a>
+<span class="menu-text">Data List</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -116,12 +126,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#general-information" id="toc-general-information" class="nav-link active" data-scroll-target="#general-information">General Information</a></li>
-  <li><a href="#data-quality" id="toc-data-quality" class="nav-link" data-scroll-target="#data-quality">Data Quality</a></li>
-  <li><a href="#data-documentation" id="toc-data-documentation" class="nav-link" data-scroll-target="#data-documentation">Data Documentation</a></li>
-  <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
-  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
-  <li><a href="#additional-metadata" id="toc-additional-metadata" class="nav-link" data-scroll-target="#additional-metadata">Additional Metadata</a></li>
+  <li><a href="#data-management-nesdis_blendedsic_nhem_daily" id="toc-data-management-nesdis_blendedsic_nhem_daily" class="nav-link active" data-scroll-target="#data-management-nesdis_blendedsic_nhem_daily">Data Management: nesdis_blendedsic_nhem_daily</a>
+  <ul class="collapse">
+  <li><a href="#data-description" id="toc-data-description" class="nav-link" data-scroll-target="#data-description">Data Description</a></li>
+  <li><a href="#process-description" id="toc-process-description" class="nav-link" data-scroll-target="#process-description">Process Description</a></li>
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a></li>
+  <li><a href="#storage-and-backup" id="toc-storage-and-backup" class="nav-link" data-scroll-target="#storage-and-backup">Storage and Backup</a></li>
+  <li><a href="#policies-for-access-and-sharing" id="toc-policies-for-access-and-sharing" class="nav-link" data-scroll-target="#policies-for-access-and-sharing">Policies for Access and Sharing</a></li>
+  <li><a href="#plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them" id="toc-plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them" class="nav-link" data-scroll-target="#plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them">Plans for archiving data, samples, and other research products, and for preservation of access to them</a></li>
+  <li><a href="#roles-and-responsibilities" id="toc-roles-and-responsibilities" class="nav-link" data-scroll-target="#roles-and-responsibilities">Roles and Responsibilities</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -131,218 +145,103 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="general-information" class="level2">
-<h2 class="anchored" data-anchor-id="general-information">General Information</h2>
-<ul>
-<li><a href="https://polarwatch.noaa.gov/catalog/ice-conc-nh-blended-nesdis/preview">Link to Data Landing Page</a>
-<ul>
-<li>Name : Blended Sea Ice Concentration from AMSR2/VIIRS Daily 1km, Arctic</li>
-<li>Version : 1.0</li>
-<li>Contact : Richard Dworak</li>
-<li>Data Published : 12/18/2023</li>
-</ul></li>
-<li>Is this raw data or a derived/processed data product? <em>Derived</em></li>
-<li>Is this observational data, simulation/model output, or synthetic data? <em>Observational</em></li>
-<li>Is the data single-source or aggregated from several sources? <em>Aggregated</em></li>
-</ul>
-</section>
-<section id="data-quality" class="level2">
-<h2 class="anchored" data-anchor-id="data-quality">Data Quality</h2>
-<ul>
-<li>Timeliness:
-<ul>
-<li>Will the dataset be updated? <em>Yes, it will be updated. </em>
-<ul>
-<li>Updated when new data are added <em>daily</em></li>
-<li>Will there be different stages of the update? <em>No</em></li>
-</ul></li>
-</ul></li>
-<li>Data completeness
-<ul>
-<li>Is there any documentation about the completeness of the dataset? <em>Yes</em>
-<ul>
-<li><a href="https://www.mdpi.com/2072-4292/13/15/2982">link to documentation</a></li>
-</ul></li>
-<li>How complete is the dataset compared to the expected spatial coverage? <em>Complete</em></li>
-<li>How complete is the dataset compared to the expected temporal coverage? <em>Complete</em></li>
-</ul></li>
-<li>Data consistency
-<ul>
-<li>Is this dataset self-consistent in that its units, data types, and parameter names do not change over time and space? <em>Yes</em></li>
-<li>Is this dataset’s units, data types, and parameter names consistent with similar data collections? <em>Yes</em></li>
-<li>Are there processes to monitor for units, data types, and parameter consistency? <em>No</em>
-<ul>
-<li>If yes, what measures are taken? <em>Manual review</em> [TODO]</li>
-</ul></li>
-</ul></li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Note">
+<section id="data-management-nesdis_blendedsic_nhem_daily" class="level1">
+<h1>Data Management: nesdis_blendedsic_nhem_daily</h1>
+<blockquote class="blockquote">
+<p>Updated Apr 3, 2024</p>
+</blockquote>
+<section id="data-description" class="level2">
+<h2 class="anchored" data-anchor-id="data-description">Data Description</h2>
+<p>This dataset represents the 1km Blended sea ice concentration for the Arctic, utilizing data from the AMSR2 instrument aboard the GCOM-W1 satellite and VIIRS instrument on NOAA-21. The daily sea ice concentration values are stored in the 1 km EASE2-Grid format.</p>
+<p>These data products are developed through a collaboration between NESDIS and the University of Wisconsin. For more information on the algorithm development, you can visit the provided link: <a href="https://www.mdpi.com/2072-4292/13/15/2982">Algorithm Development</a>.</p>
+<p>The data file, available in NetCDF format, is generated daily with a 2-day delay for data availability. For instance, the data file for February 10, 2024, becomes accessible on February 12, 2024. File sizes vary approximately between 15MB and 360MB, and specific file sizes can be checked on the ERDDAP file page.</p>
+<p>Distribution of the data files is managed through <a href="https://polarwatch.noaa.gov/erddap/info/index.html?page=1&amp;itemsPerPage=1000">PolarWatch ERDDAP</a>, where they can also be previewed in the <a href="https://polarwatch.noaa.gov/catalog/ice-conc-nh-blended-nesdis/preview/">PolarWatch Catalog</a>.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="disclaimer">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+disclaimer
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ul>
-<li>Check for pole hole, flag values?</li>
-<li>Data consistency: create data management plan and add review process</li>
-</ul>
+<p>PolarWatch ERDDAP enables data subsetting and downloading in various formats through the Data Download Form. However, please note that this dataset is provided in EASE-2 (EPSG:6931) coordinates. For optimal results, direct file downloads from ERDDAP File page are strongly recommended.</p>
 </div>
 </div>
-<ul>
-<li>Data bias
-<ul>
-<li>Is there known bias in the dataset? <em>No</em>
-<ul>
-<li><a href="https://www.mdpi.com/2072-4292/13/15/2982">link to documentation</a></li>
-</ul></li>
-<li>Have measures been taken to examine bias? <em>No</em></li>
-<li>Is there reported bias in the data? <em>No known bias</em></li>
-<li>Is there quantitative information about data resolution in space and time? <em>Yes</em></li>
-<li>Are there published data quality procedures or reports? <em>No</em></li>
-<li>Is the provenance of the dataset tracked and documented? <em>No</em></li>
-<li>Are there checksums / other checks for data integrity? <em>No</em></li>
-<li>What is the size of the dataset? Depending on the resource, this might be total data volume, dimensionality, number of images, data files, table rows, image size, etc. _ approximately 15 ~ 540 MB (file size per day)_</li>
-</ul></li>
-</ul>
 </section>
-<section id="data-documentation" class="level2">
-<h2 class="anchored" data-anchor-id="data-documentation">Data Documentation</h2>
-<ul>
-<li>Does the dataset metadata follow a community/domain standard or convention? <em>Yes</em>
-<ul>
-<li>If the metadata follows a community/domain standard, which standard is it? <em>CF-1.6, ACDD-1.3, NOAA CDR v1.0, GDS v2.0, COARDS</em></li>
-<li>Is the dataset metadata machine-readable? <em>Yes</em></li>
-<li>Does it include details on the spatial and temporal extent? <em>Yes</em></li>
-</ul></li>
-<li>Is there a comprehensive data dictionary/codebook that describes what each element of the dataset means? parameters? <em>Yes</em>
-<ul>
-<li>Is the data dictionary standardized? <em>Yes</em></li>
-<li>Is the data dictionary machine-readable? <em>Yes</em></li>
-<li>Do the parameters follow a defined standard? <em>Yes</em>
-<ul>
-<li>If the parameters follow a defined standard, which standard it is? <em>CF-1.6</em></li>
-</ul></li>
-<li>Are parameters crosswalked in an ontology or common vocabulary (e.g.&nbsp;NIEM)? <em>Not applicable</em></li>
-</ul></li>
-<li>Does the dataset have a unique persistent identifier, e.g.&nbsp;DOI? <em>Yes</em> (CHECK DOI)</li>
-<li>Is there contact information for subject-matter experts? <em>Yes</em></li>
-<li>Is there a mechanism for user feedback and suggestions? <em>Yes</em></li>
-<li>Are there example codes/notebooks/toolkits available showing how the data can be used? <em>Yes</em></li>
-<li>What is the license for the data?
-<ul>
-<li><em>These data may be redistributed and used without restriction</em></li>
-<li>Is the license standardized and machine-readable (e.g.&nbsp;Creative Commons)? <em>Yes</em></li>
-</ul></li>
-<li>Has this dataset already been used in AI or ML activities? <em>No</em></li>
-<li>Are there recommendations on the intended use of the data, and uses that are not recommended? <em>Yes</em> [TODO: link to documentation]</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Note">
+<section id="process-description" class="level2">
+<h2 class="anchored" data-anchor-id="process-description">Process Description</h2>
+<p>Daily processing is automated and scheduled to run daily to check, download, compress and store and backup newly created netcdf file from the FTP server.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A(File on FTP Server) --&gt;B(File Download to PolarWatch)
+  B --&gt; C(Compressed, Stored, Backed up)
+  C --&gt; D(Accessible on ERDDAP, Catalog)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li>PolarWatch checks and downloads daily netcdf file from NESDIS/Univ of Wisconin daily (scheduled cron job)</li>
+<li>PolarWatch compresses netcdf file and store on a data server to be accessible</li>
+<li>PolarWatch backsup data file</li>
+</ol>
+</section>
+<section id="metadata" class="level2">
+<h2 class="anchored" data-anchor-id="metadata">Metadata</h2>
+<p>PolarWatch provides extensive metadata on ERDDAP in addition to embedded metadata in NetCDF. The metadata standard used is CF-16, and both ERDDAP metadata and NetCDF metadata are machine readable.</p>
+<p>The metadata was created by the data product developer with the template/guidelines provided by PolarWatch. <a href="">link to template</a></p>
+<p>ERDDAP metadata: https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_nhem_daily/index.html</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Projection attributes">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+Projection attributes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ul>
-<li>Ask NCEI for license information</li>
-<li>Science Team: White paper for recommendations on the intended use of the product as a disclaimer and link the document</li>
-</ul>
+<p>For software readable projection information is stored in the following attributes <code>srid</code>, <code>proj4text</code>, <code>grid_mapping</code> , <code>grid_mapping_epsg_code: 6931</code>.</p>
 </div>
 </div>
 </section>
-<section id="data-access" class="level2">
-<h2 class="anchored" data-anchor-id="data-access">Data Access</h2>
+<section id="storage-and-backup" class="level2">
+<h2 class="anchored" data-anchor-id="storage-and-backup">Storage and Backup</h2>
+<p>Data are stored in directory on the PolarWatch data server and ERDDAP points to the directory. Data are automatically backed up on a PolarWatch backup server. In the case of the event of an accident, the recovery will be handled by PolarWatch team.</p>
+</section>
+<section id="policies-for-access-and-sharing" class="level2">
+<h2 class="anchored" data-anchor-id="policies-for-access-and-sharing">Policies for Access and Sharing</h2>
+<p>Data are publically accessible. Please use <a href="https://www.ncei.noaa.gov/archive#:~:text=Because%20works%20of%20the%20US%20government%20are,license%20to%20that%20portion%20of%20its%20holdings.">NCEI Data Licensing</a> . ERDDAP is the primary data distribution system with a web interface.</p>
+<p>Data can be searched and accessed:</p>
 <ul>
-<li>What is/are the major file formats? netcdf
-<ul>
-<li>Is this format machine-readable? <em>Yes</em></li>
-<li>Is the data available in at least one open, non-proprietary format? <em>Yes</em></li>
-<li>Are there tools/services to support data format conversion? <em>Yes</em>
-<ul>
-<li>If so, provide the link to the tools/services</li>
-</ul></li>
-</ul></li>
-<li>Data delivery: <a href="https://polarwatch.noaa.gov/erddap/griddap/nesdis_blendedsic_nhem_daily.html">ERDDAP</a>
-<ul>
-<li>Does data access require authentication (e.g., a registered user account)? <em>No</em></li>
-<li>Can the file be accessed via direct file downloading or ordering? <em>Yes</em></li>
-<li>Is there an Application Programming Interface (API) or web service to access the data? <em>Yes</em></li>
-<li>If there is an API, does the API follow an open standard protocol (e.g., OGC)? <em>Yes</em></li>
-<li>If there is an API, is there documentation for the API? <em>Yes</em>
-<ul>
-<li>If “Yes”, please provide a URL to the documentation.</li>
-</ul></li>
-<li>Is the data available publicly via cloud services? <em>Yes</em></li>
-</ul></li>
-<li>For restricted data, have measures been taken to provide some access while still applying appropriate protection for privacy and security? <em>Yes</em>
-<ul>
-<li>Has the data been aggregated to reduce granularity? <em>Yes</em></li>
-<li>Has the data been anonymized / de-identified? <em>Not applicable</em></li>
-<li>Is there secure access to the full dataset for authorized users? <em>No</em></li>
-</ul></li>
+<li><a href="https://polarwatch.noaa.gov/catalog/">PolarWatch Catalog</a> or <a href="https://polarwatch.noaa.gov/erddap/">PolarWatch ERDDAP Web Interface</a></li>
+<li><a href="https://polarwatch.noaa.gov/erddap/rest.html">ERDDAP RESTful web services</a> for software to access data.</li>
+<li><a href="https://github.com/coastwatch-training/CoastWatch-Tutorials">Tutorials and code samples</a> are available to access data and metadata in commonly used languages (i.e.&nbsp;R, Python)</li>
+<li>Contact PolarWatch Operatins Manager at polar.watch@noaa.gov</li>
 </ul>
 </section>
-<section id="data-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="data-preparation">Data Preparation</h2>
-<ul>
-<li>Have null values/gaps been filled? <em>Yes</em></li>
-<li>Have outliers been identified? <em>No</em></li>
-<li>Is the data gridded (regularly sampled in time and space)? <em>Yes</em>
-<ul>
-<li><em>Regularly gridded in space and constant time-frequency</em></li>
-<li>If the data is gridded, was it transformed from a different original sampling? <em>Yes, from a different regular sampling</em></li>
-<li>If the data is resampled from the original sampling, is the data also available at the original sampling? <em>Yes</em></li>
-</ul></li>
-<li>Are there associated targets or labels for supervised learning techniques (i.e., can this be used as a training dataset for supervised learning techniques)? <em>Yes</em></li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Note">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Check for the Pole hole</li>
-</ul>
-</div>
-</div>
+<section id="plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them" class="level2">
+<h2 class="anchored" data-anchor-id="plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them">Plans for archiving data, samples, and other research products, and for preservation of access to them</h2>
+<p>PolarWatch collaborates with data developers to manage and distribute both actively updated datasets and those that have become deprecated. While ensuring continued access to these varied datasets, it’s important to note that PolarWatch does not serve as an archive for data.</p>
 </section>
-<section id="additional-metadata" class="level2">
-<h2 class="anchored" data-anchor-id="additional-metadata">Additional Metadata</h2>
+<section id="roles-and-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="roles-and-responsibilities">Roles and Responsibilities</h2>
 <ul>
-<li>PolarWatch Metadata: https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_nhem_daily/index.html</li>
+<li>The PolarWatch Operations Manager is tasked with the implementation, documentation, and periodic updating of the Data Management Plan.</li>
+<li>The data workflow is designed to be automated. This process is closely monitored, with automatic notifications being sent out in the event of any errors.</li>
+<li>The documentation for internal data processing is accessible internally, ensuring that relevant team members can access it as needed. Additionally, all scripts associated with this processing are stored in a private repository.</li>
 </ul>
-<div class="callout callout-style-default callout-important callout-titled" title="TO DO">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-TO DO
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>STAR Team to create a white paper on intended use of blended SIC</li>
-<li>PolarWatch to check pole hole values in the dataset</li>
-<li>PolarWatch to create a Data Management Plan</li>
-<li>PolarWatch to contact NCEI for more info on license standards</li>
-</ul>
-</div>
-</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -425,6 +324,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/polarwatch\.github\.io\/datamanagement\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -459,7 +376,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

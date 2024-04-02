@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PolarWatch Data Management</title>
+<title>PolarWatch Data Management - PolarWatch Metadata Information Page</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,9 +66,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -91,17 +88,24 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./dmp_template.html"> 
-<span class="menu-text">Data Management Plan</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guidelines" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Guidelines</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-guidelines">    
+        <li>
+    <a class="dropdown-item" href="./guidelines/metadata.html">
+ <span class="dropdown-text">PolarWatch Metadata</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ai-ready-data-checklist-v.1.0.html"> 
-<span class="menu-text">AI Ready Checklist</span></a>
+        <li>
+    <a class="dropdown-item" href="./guidelines/ai-ready-data-checklist-v.1.0.html">
+ <span class="dropdown-text">AI Ready Checklist</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./data.html"> 
-<span class="menu-text">Metadata List</span></a>
+<span class="menu-text">Data List</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -119,9 +123,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-management-plan-dmp" id="toc-data-management-plan-dmp" class="nav-link active" data-scroll-target="#data-management-plan-dmp">Data Management Plan (DMP)</a></li>
-  <li><a href="#ai-ready-checklist" id="toc-ai-ready-checklist" class="nav-link" data-scroll-target="#ai-ready-checklist">AI-Ready Checklist</a></li>
-  <li><a href="#data-list" id="toc-data-list" class="nav-link" data-scroll-target="#data-list">Data List</a></li>
+  <li><a href="#for-data-users" id="toc-for-data-users" class="nav-link active" data-scroll-target="#for-data-users">For Data Users</a></li>
+  <li><a href="#for-data-developers" id="toc-for-data-developers" class="nav-link" data-scroll-target="#for-data-developers">For Data Developers</a></li>
   </ul>
 </nav>
     </div>
@@ -130,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">PolarWatch Data Management</h1>
+<h1 class="title">PolarWatch Metadata Information Page</h1>
 </div>
 
 
@@ -147,54 +150,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled" title="Note">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This document is a working copy.</p>
-</div>
-</div>
-<p>This repository serves as a resource for the data management practices of PolarWatch. It includes documents and plans dedicated to the management of data throughout its lifecycle.</p>
-<section id="data-management-plan-dmp" class="level3">
-<h3 class="anchored" data-anchor-id="data-management-plan-dmp">Data Management Plan (DMP)</h3>
-<p>A Data Management Plan (DMP) is a living document that details the data lifecycle, encompassing data creation, processing, access, ownership, and management strategies and tools.</p>
-<p>The objective of PolarWatch is to disseminate remote sensing data, ensuring they are readily available. Consequently, the PolarWatch DMP focuses on aspects of the data lifecycle pertinent to its operations, such as data ingestion, processing, quality control, and management.</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A(Get Data from Source) --&gt;B(Process, Q/C Data)
-  A --&gt; D(Create Metadata)
-  B --&gt; C(Store Data)
-  C --&gt; G(Backup Data)
-  B --&gt; D(Create Metadata)
-  C --&gt; F(Make Data Accessible)
-  D --&gt; F
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>Diagram: General PolarWatch data workflow</p>
-<p>The DMP Page provides an overview of the DMP components along with their detailed descriptions.</p>
+<p>The PolarWatch Metadata Information Page is designed to provide comprehensive metadata-related information on the data products distributed by PolarWatch, emphasizing adherence to FAIRS and Open Data principles.</p>
+<p>Furthermore, it aims to facilitate both current and future data product distributions through the PolarWatch data server by offering detailed metadata guidelines and recommendations.</p>
+<section id="for-data-users" class="level3">
+<h3 class="anchored" data-anchor-id="for-data-users">For Data Users</h3>
+<p>On the <strong>Data List</strong> page, users can access a variety of resources, including:</p>
+<ul>
+<li><strong>Data Change Logs:</strong> Provides updates on any modifications to data products, such as variable adjustments or corrections to missing dates.</li>
+<li><strong>AI-Ready Checklist</strong>: Delivers metadata specifications for AI-ready open environmental data, ensuring readiness for artificial intelligence applications.</li>
+<li><strong>Data/Server Availability</strong>: Supplies notifications regarding the availability of data or server access, keeping users informed of operational status.</li>
+</ul>
 </section>
-<section id="ai-ready-checklist" class="level3">
-<h3 class="anchored" data-anchor-id="ai-ready-checklist">AI-Ready Checklist</h3>
-<p>This checklist is developed through a collaboration of ESIP Data Readiness Cluster members include representatives from NOAA, NASA, USGS, and other organizations. The checklist will be updated periodically to reflect community feedback. The checklist aims to provide comprehensive metadata to support AI-ready research.</p>
-<p>source: https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md</p>
-</section>
-<section id="data-list" class="level3">
-<h3 class="anchored" data-anchor-id="data-list">Data List</h3>
-<p>The Data List page presents a catalog of PolarWatch data products, including links to their respective DMP and AI-Ready documentation.</p>
+<section id="for-data-developers" class="level3">
+<h3 class="anchored" data-anchor-id="for-data-developers">For Data Developers</h3>
+<p>Guidelines and recommendations can be found on the <strong>Guidelines</strong> page:</p>
+<ul>
+<li><p><strong>PolarWatch Metadata Recommendations:</strong> These guidelines are designed for data products hosted on the PolarWatch ERDDAP Server, outlining metadata attributes and descriptions in accordance with established industry convention standards, as noted in the Standard column.</p></li>
+<li><p><strong>AI-Ready Checklist Guidelines:</strong> Presents a set of guidelines and recommendations for crafting metadata that meets the criteria for AI-ready open environmental data. This document mirrors <a href="https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md">the latest version available from the source repository</a>., ensuring users have access to the most current standards.</p></li>
+</ul>
 
 
 </section>
@@ -279,6 +252,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/polarwatch\.github\.io\/datamanagement\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -313,7 +304,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

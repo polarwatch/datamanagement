@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,9 +66,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PolarWatch Data Management</span>
     </a>
   </div>
@@ -88,17 +91,24 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./dmp_template.html"> 
-<span class="menu-text">Data Management Plan</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guidelines" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Guidelines</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-guidelines">    
+        <li>
+    <a class="dropdown-item" href="../../guidelines/metadata.html">
+ <span class="dropdown-text">PolarWatch Metadata</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ai-ready-data-checklist-v.1.0.html"> 
-<span class="menu-text">AI Ready Checklist</span></a>
+        <li>
+    <a class="dropdown-item" href="../../guidelines/ai-ready-data-checklist-v.1.0.html">
+ <span class="dropdown-text">AI Ready Checklist</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./data.html"> 
-<span class="menu-text">Metadata List</span></a>
+    <a class="nav-link" href="../../data.html"> 
+<span class="menu-text">Data List</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -116,7 +126,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#metadata" id="toc-metadata" class="nav-link active" data-scroll-target="#metadata">Metadata</a></li>
+  <li><a href="#data-management-nesdis_blendedsic_shem_daily" id="toc-data-management-nesdis_blendedsic_shem_daily" class="nav-link active" data-scroll-target="#data-management-nesdis_blendedsic_shem_daily">Data Management: nesdis_blendedsic_shem_daily</a>
+  <ul class="collapse">
+  <li><a href="#data-description" id="toc-data-description" class="nav-link" data-scroll-target="#data-description">Data Description</a></li>
+  <li><a href="#process-description" id="toc-process-description" class="nav-link" data-scroll-target="#process-description">Process Description</a></li>
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a></li>
+  <li><a href="#storage-and-backup" id="toc-storage-and-backup" class="nav-link" data-scroll-target="#storage-and-backup">Storage and Backup</a></li>
+  <li><a href="#policies-for-access-and-sharing" id="toc-policies-for-access-and-sharing" class="nav-link" data-scroll-target="#policies-for-access-and-sharing">Policies for Access and Sharing</a></li>
+  <li><a href="#plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them" id="toc-plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them" class="nav-link" data-scroll-target="#plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them">Plans for archiving data, samples, and other research products, and for preservation of access to them</a></li>
+  <li><a href="#roles-and-responsibilities" id="toc-roles-and-responsibilities" class="nav-link" data-scroll-target="#roles-and-responsibilities">Roles and Responsibilities</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -126,10 +145,103 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="metadata" class="level1">
-<h1>Metadata</h1>
+<section id="data-management-nesdis_blendedsic_shem_daily" class="level1">
+<h1>Data Management: nesdis_blendedsic_shem_daily</h1>
+<blockquote class="blockquote">
+<p>Updated Apr 3, 2024</p>
+</blockquote>
+<section id="data-description" class="level2">
+<h2 class="anchored" data-anchor-id="data-description">Data Description</h2>
+<p>This dataset represents the 1km Blended sea ice concentration for the Arctic, utilizing data from the AMSR2 instrument aboard the GCOM-W1 satellite and VIIRS instrument on NOAA-21. The daily sea ice concentration values are stored in the 1 km EASE2-Grid format.</p>
+<p>These data products are developed through a collaboration between NESDIS and the University of Wisconsin. For more information on the algorithm development, you can visit the provided link: <a href="https://www.mdpi.com/2072-4292/13/15/2982">Algorithm Development</a>.</p>
+<p>The data file, available in NetCDF format, is generated daily with a 2-day delay for data availability. For instance, the data file for February 10, 2024, becomes accessible on February 12, 2024. File sizes vary approximately between 15MB and 360MB, and specific file sizes can be checked on the ERDDAP file page.</p>
+<p>Distribution of the data files is managed through <a href="https://polarwatch.noaa.gov/erddap/info/index.html?page=1&amp;itemsPerPage=1000">PolarWatch ERDDAP</a>, where they can also be previewed in the <a href="https://polarwatch.noaa.gov/catalog/ice-conc-nh-blended-nesdis/preview/">PolarWatch Catalog</a>.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="disclaimer">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+disclaimer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>PolarWatch ERDDAP enables data subsetting and downloading in various formats through the Data Download Form. However, please note that this dataset is provided in EASE-2 (EPSG:6931) coordinates. For optimal results, direct file downloads from ERDDAP File page are strongly recommended.</p>
+</div>
+</div>
+</section>
+<section id="process-description" class="level2">
+<h2 class="anchored" data-anchor-id="process-description">Process Description</h2>
+<p>Daily processing is automated and scheduled to run daily to check, download, compress and store and backup newly created netcdf file from the FTP server.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A(File on FTP Server) --&gt;B(File Download to PolarWatch)
+  B --&gt; C(Compressed, Stored, Backed up)
+  C --&gt; D(Accessible on ERDDAP, Catalog)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li>PolarWatch checks and downloads daily netcdf file from NESDIS/Univ of Wisconin daily (scheduled cron job)</li>
+<li>PolarWatch compresses netcdf file and store on a data server to be accessible</li>
+<li>PolarWatch backsup data file</li>
+</ol>
+</section>
+<section id="metadata" class="level2">
+<h2 class="anchored" data-anchor-id="metadata">Metadata</h2>
+<p>PolarWatch provides extensive metadata on ERDDAP in addition to embedded metadata in NetCDF. The metadata standard used is CF-16, and both ERDDAP metadata and NetCDF metadata are machine readable.</p>
+<p>The metadata was created by the data product developer with the template/guidelines provided by PolarWatch. <a href="">link to template</a></p>
+<p>ERDDAP metadata: https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_nhem_daily/index.html</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Projection attributes">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Projection attributes
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For software readable projection information is stored in the following attributes <code>srid</code>, <code>proj4text</code>, <code>grid_mapping</code> , <code>grid_mapping_epsg_code: 6931</code>.</p>
+</div>
+</div>
+</section>
+<section id="storage-and-backup" class="level2">
+<h2 class="anchored" data-anchor-id="storage-and-backup">Storage and Backup</h2>
+<p>Data are stored in directory on the PolarWatch data server and ERDDAP points to the directory. Data are automatically backed up on a PolarWatch backup server. In the case of the event of an accident, the recovery will be handled by PolarWatch team.</p>
+</section>
+<section id="policies-for-access-and-sharing" class="level2">
+<h2 class="anchored" data-anchor-id="policies-for-access-and-sharing">Policies for Access and Sharing</h2>
+<p>Data are publically accessible. Please use <a href="https://www.ncei.noaa.gov/archive#:~:text=Because%20works%20of%20the%20US%20government%20are,license%20to%20that%20portion%20of%20its%20holdings.">NCEI Data Licensing</a> . ERDDAP is the primary data distribution system with a web interface.</p>
+<p>Data can be searched and accessed:</p>
+<ul>
+<li><a href="https://polarwatch.noaa.gov/catalog/">PolarWatch Catalog</a> or <a href="https://polarwatch.noaa.gov/erddap/">PolarWatch ERDDAP Web Interface</a></li>
+<li><a href="https://polarwatch.noaa.gov/erddap/rest.html">ERDDAP RESTful web services</a> for software to access data.</li>
+<li><a href="https://github.com/coastwatch-training/CoastWatch-Tutorials">Tutorials and code samples</a> are available to access data and metadata in commonly used languages (i.e.&nbsp;R, Python)</li>
+<li>Contact PolarWatch Operatins Manager at polar.watch@noaa.gov</li>
+</ul>
+</section>
+<section id="plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them" class="level2">
+<h2 class="anchored" data-anchor-id="plans-for-archiving-data-samples-and-other-research-products-and-for-preservation-of-access-to-them">Plans for archiving data, samples, and other research products, and for preservation of access to them</h2>
+<p>PolarWatch collaborates with data developers to manage and distribute both actively updated datasets and those that have become deprecated. While ensuring continued access to these varied datasets, it’s important to note that PolarWatch does not serve as an archive for data.</p>
+</section>
+<section id="roles-and-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="roles-and-responsibilities">Roles and Responsibilities</h2>
+<ul>
+<li>The PolarWatch Operations Manager is tasked with the implementation, documentation, and periodic updating of the Data Management Plan.</li>
+<li>The data workflow is designed to be automated. This process is closely monitored, with automatic notifications being sent out in the event of any errors.</li>
+<li>The documentation for internal data processing is accessible internally, ensuring that relevant team members can access it as needed. Additionally, all scripts associated with this processing are stored in a private repository.</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -212,6 +324,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/polarwatch\.github\.io\/datamanagement\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -246,7 +376,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

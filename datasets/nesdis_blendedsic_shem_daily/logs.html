@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -88,17 +88,24 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../dmp_template.html"> 
-<span class="menu-text">Data Management Plan</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guidelines" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Guidelines</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-guidelines">    
+        <li>
+    <a class="dropdown-item" href="../../guidelines/metadata.html">
+ <span class="dropdown-text">PolarWatch Metadata</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../ai-ready-data-checklist-v.1.0.html"> 
-<span class="menu-text">AI Ready Checklist</span></a>
+        <li>
+    <a class="dropdown-item" href="../../guidelines/ai-ready-data-checklist-v.1.0.html">
+ <span class="dropdown-text">AI Ready Checklist</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../data.html"> 
-<span class="menu-text">Metadata List</span></a>
+<span class="menu-text">Data List</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -116,12 +123,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#general-information" id="toc-general-information" class="nav-link active" data-scroll-target="#general-information">General Information</a></li>
-  <li><a href="#data-quality" id="toc-data-quality" class="nav-link" data-scroll-target="#data-quality">Data Quality</a></li>
-  <li><a href="#data-documentation" id="toc-data-documentation" class="nav-link" data-scroll-target="#data-documentation">Data Documentation</a></li>
-  <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
-  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
-  <li><a href="#additional-metadata" id="toc-additional-metadata" class="nav-link" data-scroll-target="#additional-metadata">Additional Metadata</a></li>
+  <li><a href="#logs-nesdis_blendedsic_nhem_daily" id="toc-logs-nesdis_blendedsic_nhem_daily" class="nav-link active" data-scroll-target="#logs-nesdis_blendedsic_nhem_daily">Logs: nesdis_blendedsic_nhem_daily</a>
+  <ul class="collapse">
+  <li><a href="#logs" id="toc-logs" class="nav-link" data-scroll-target="#logs">Logs</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -131,218 +136,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="general-information" class="level2">
-<h2 class="anchored" data-anchor-id="general-information">General Information</h2>
+<section id="logs-nesdis_blendedsic_nhem_daily" class="level1">
+<h1>Logs: nesdis_blendedsic_nhem_daily</h1>
+<section id="logs" class="level3">
+<h3 class="anchored" data-anchor-id="logs">Logs</h3>
 <ul>
-<li><a href="https://polarwatch.noaa.gov/catalog/ice-conc-sh-blended-nesdis/preview">Link to Data Landing Page</a>
-<ul>
-<li>Name : Blended Sea Ice Concentration from AMSR2/VIIRS Daily 1km, Antarctic</li>
-<li>Version : 1.0</li>
-<li>Contact : Richard Dworak</li>
-<li>Data Published : 12/18/2023</li>
-</ul></li>
-<li>Is this raw data or a derived/processed data product? <em>Derived</em></li>
-<li>Is this observational data, simulation/model output, or synthetic data? <em>Synthetic</em></li>
-<li>Is the data single-source or aggregated from several sources? <em>Aggregated</em></li>
+<li>March 20, 2024 - Missing data from 03/17/2024 - 03/24/2024 due to orbit rephasing effort</li>
 </ul>
-</section>
-<section id="data-quality" class="level2">
-<h2 class="anchored" data-anchor-id="data-quality">Data Quality</h2>
-<ul>
-<li>Timeliness:
-<ul>
-<li>Will the dataset be updated? <em>Yes, it will be updated. </em>
-<ul>
-<li>Updated when new data are added <em>daily</em></li>
-<li>Will there be different stages of the update? <em>No</em></li>
-</ul></li>
-</ul></li>
-<li>Data completeness
-<ul>
-<li>Is there any documentation about the completeness of the dataset? <em>Yes</em>
-<ul>
-<li><a href="https://www.mdpi.com/2072-4292/13/15/2982">link to documentation</a></li>
-</ul></li>
-<li>How complete is the dataset compared to the expected spatial coverage? <em>Complete</em></li>
-<li>How complete is the dataset compared to the expected temporal coverage? <em>Complete</em></li>
-</ul></li>
-<li>Data consistency
-<ul>
-<li>Is this dataset self-consistent in that its units, data types, and parameter names do not change over time and space? <em>Yes</em></li>
-<li>Is this dataset’s units, data types, and parameter names consistent with similar data collections? <em>Yes</em></li>
-<li>Are there processes to monitor for units, data types, and parameter consistency? <em>No</em>
-<ul>
-<li>If yes, what measures are taken? <em>Manual review</em> [TODO]</li>
-</ul></li>
-</ul></li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Note">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Check for pole hole, flag values?</li>
-<li>Data consistency: create data management plan and add review process</li>
-</ul>
-</div>
-</div>
-<ul>
-<li>Data bias
-<ul>
-<li>Is there known bias in the dataset? <em>No</em>
-<ul>
-<li><a href="https://www.mdpi.com/2072-4292/13/15/2982">link to documentation</a></li>
-</ul></li>
-<li>Have measures been taken to examine bias? <em>No</em></li>
-<li>Is there reported bias in the data? <em>No known bias</em></li>
-<li>Is there quantitative information about data resolution in space and time? <em>Yes</em></li>
-<li>Are there published data quality procedures or reports? <em>No</em></li>
-<li>Is the provenance of the dataset tracked and documented? <em>No</em></li>
-<li>Are there checksums / other checks for data integrity? <em>No</em></li>
-<li>What is the size of the dataset? Depending on the resource, this might be total data volume, dimensionality, number of images, data files, table rows, image size, etc. _ approximately 15 ~ 540 MB (file size per day)_</li>
-</ul></li>
-</ul>
-</section>
-<section id="data-documentation" class="level2">
-<h2 class="anchored" data-anchor-id="data-documentation">Data Documentation</h2>
-<ul>
-<li>Does the dataset metadata follow a community/domain standard or convention? <em>Yes</em>
-<ul>
-<li>If the metadata follows a community/domain standard, which standard is it? <em>CF-1.6, ACDD-1.3, NOAA CDR v1.0, GDS v2.0, COARDS</em></li>
-<li>Is the dataset metadata machine-readable? <em>Yes</em></li>
-<li>Does it include details on the spatial and temporal extent? <em>Yes</em></li>
-</ul></li>
-<li>Is there a comprehensive data dictionary/codebook that describes what each element of the dataset means? parameters? <em>Yes</em>
-<ul>
-<li>Is the data dictionary standardized? <em>Yes</em></li>
-<li>Is the data dictionary machine-readable? <em>Yes</em></li>
-<li>Do the parameters follow a defined standard? <em>Yes</em>
-<ul>
-<li>If the parameters follow a defined standard, which standard it is? <em>CF-1.6</em></li>
-</ul></li>
-<li>Are parameters crosswalked in an ontology or common vocabulary (e.g.&nbsp;NIEM)? <em>Not applicable</em></li>
-</ul></li>
-<li>Does the dataset have a unique persistent identifier, e.g.&nbsp;DOI? <em>Yes</em> (CHECK DOI)</li>
-<li>Is there contact information for subject-matter experts? <em>Yes</em></li>
-<li>Is there a mechanism for user feedback and suggestions? <em>Yes</em></li>
-<li>Are there example codes/notebooks/toolkits available showing how the data can be used? <em>Yes</em></li>
-<li>What is the license for the data?
-<ul>
-<li><em>These data may be redistributed and used without restriction</em></li>
-<li>Is the license standardized and machine-readable (e.g.&nbsp;Creative Commons)? <em>Yes</em></li>
-</ul></li>
-<li>Has this dataset already been used in AI or ML activities? <em>No</em></li>
-<li>Are there recommendations on the intended use of the data, and uses that are not recommended? <em>Yes</em> [TODO: link to documentation]</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Note">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Ask NCEI for license information</li>
-<li>Science Team: White paper for recommendations on the intended use of the product as a disclaimer and link the document</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="data-access" class="level2">
-<h2 class="anchored" data-anchor-id="data-access">Data Access</h2>
-<ul>
-<li>What is/are the major file formats? netcdf
-<ul>
-<li>Is this format machine-readable? <em>Yes</em></li>
-<li>Is the data available in at least one open, non-proprietary format? <em>Yes</em></li>
-<li>Are there tools/services to support data format conversion? <em>Yes</em>
-<ul>
-<li>If so, provide the link to the tools/services</li>
-</ul></li>
-</ul></li>
-<li>Data delivery: <a href="https://polarwatch.noaa.gov/erddap/griddap/nesdis_blendedsic_nhem_daily.html">ERDDAP</a>
-<ul>
-<li>Does data access require authentication (e.g., a registered user account)? <em>No</em></li>
-<li>Can the file be accessed via direct file downloading or ordering? <em>Yes</em></li>
-<li>Is there an Application Programming Interface (API) or web service to access the data? <em>Yes</em></li>
-<li>If there is an API, does the API follow an open standard protocol (e.g., OGC)? <em>Yes</em></li>
-<li>If there is an API, is there documentation for the API? <em>Yes</em>
-<ul>
-<li>If “Yes”, please provide a URL to the documentation.</li>
-</ul></li>
-<li>Is the data available publicly via cloud services? <em>Yes</em></li>
-</ul></li>
-<li>For restricted data, have measures been taken to provide some access while still applying appropriate protection for privacy and security? <em>Yes</em>
-<ul>
-<li>Has the data been aggregated to reduce granularity? <em>Yes</em></li>
-<li>Has the data been anonymized / de-identified? <em>Not applicable</em></li>
-<li>Is there secure access to the full dataset for authorized users? <em>No</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="data-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="data-preparation">Data Preparation</h2>
-<ul>
-<li>Have null values/gaps been filled? <em>Yes</em></li>
-<li>Have outliers been identified? <em>No</em></li>
-<li>Is the data gridded (regularly sampled in time and space)? <em>Yes</em>
-<ul>
-<li><em>Regularly gridded in space and constant time-frequency</em></li>
-<li>If the data is gridded, was it transformed from a different original sampling? <em>Yes, from a different regular sampling</em></li>
-<li>If the data is resampled from the original sampling, is the data also available at the original sampling? <em>Yes</em></li>
-</ul></li>
-<li>Are there associated targets or labels for supervised learning techniques (i.e., can this be used as a training dataset for supervised learning techniques)? <em>Yes</em></li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Note">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Check for the Pole hole</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="additional-metadata" class="level2">
-<h2 class="anchored" data-anchor-id="additional-metadata">Additional Metadata</h2>
-<ul>
-<li>PolarWatch Metadata: https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_shem_daily/index.html</li>
-</ul>
-<div class="callout callout-style-default callout-important callout-titled" title="TO DO">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-TO DO
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>STAR Team to create a white paper on intended use of blended SIC</li>
-<li>PolarWatch to check pole hole values in the dataset</li>
-<li>PolarWatch to create a Data Management Plan</li>
-<li>PolarWatch to contact NCEI for more info on license standards</li>
-</ul>
-</div>
-</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -425,6 +228,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/polarwatch\.github\.io\/datamanagement\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -459,7 +280,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
