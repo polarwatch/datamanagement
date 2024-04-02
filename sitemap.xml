@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://polarwatch.github.io/datamanagement/data.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://polarwatch.github.io/datamanagement/index copy.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://polarwatch.github.io/datamanagement/datasets/metadata.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_shem_daily/dmp.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_nhem_daily/ai-ready.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_nhem_daily/logs.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
+    <loc>https://polarwatch.github.io/datamanagement/guidelines/ai-ready-data-checklist-v.1.0.html</loc>
+    <lastmod>2024-04-02T18:39:48.396Z</lastmod>
   </url>
   <url>
     <loc>https://polarwatch.github.io/datamanagement/guidelines/dmp_template.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
+    <lastmod>2024-04-02T18:39:48.396Z</lastmod>
   </url>
   <url>
-    <loc>https://polarwatch.github.io/datamanagement/about.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
+    <loc>https://polarwatch.github.io/datamanagement/index copy.html</loc>
+    <lastmod>2024-04-02T18:39:48.396Z</lastmod>
   </url>
   <url>
-    <loc>https://polarwatch.github.io/datamanagement/guidelines/metadata.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://polarwatch.github.io/datamanagement/guidelines/ai-ready-data-checklist-v.1.0.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
+    <loc>https://polarwatch.github.io/datamanagement/data.html</loc>
+    <lastmod>2024-04-02T18:39:48.392Z</lastmod>
   </url>
   <url>
     <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_nhem_daily/dmp.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
+    <lastmod>2024-04-02T18:39:48.392Z</lastmod>
   </url>
   <url>
-    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_shem_daily/logs.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
+    <loc>https://polarwatch.github.io/datamanagement/datasets/metadata.html</loc>
+    <lastmod>2024-04-02T18:39:48.392Z</lastmod>
   </url>
   <url>
-    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_shem_daily/ai-ready.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://polarwatch.github.io/datamanagement/meta_proj.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
+    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_shem_daily/dmp.html</loc>
+    <lastmod>2024-04-02T18:39:48.392Z</lastmod>
   </url>
   <url>
     <loc>https://polarwatch.github.io/datamanagement/index.html</loc>
-    <lastmod>2024-04-02T18:34:03.045Z</lastmod>
+    <lastmod>2024-04-02T18:39:48.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_shem_daily/ai-ready.html</loc>
+    <lastmod>2024-04-02T18:39:48.392Z</lastmod>
+  </url>
+  <url>
+    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_shem_daily/logs.html</loc>
+    <lastmod>2024-04-02T18:39:48.392Z</lastmod>
+  </url>
+  <url>
+    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_nhem_daily/ai-ready.html</loc>
+    <lastmod>2024-04-02T18:39:48.392Z</lastmod>
+  </url>
+  <url>
+    <loc>https://polarwatch.github.io/datamanagement/datasets/nesdis_blendedsic_nhem_daily/logs.html</loc>
+    <lastmod>2024-04-02T18:39:48.392Z</lastmod>
+  </url>
+  <url>
+    <loc>https://polarwatch.github.io/datamanagement/about.html</loc>
+    <lastmod>2024-04-02T18:39:48.392Z</lastmod>
+  </url>
+  <url>
+    <loc>https://polarwatch.github.io/datamanagement/meta_proj.html</loc>
+    <lastmod>2024-04-02T18:39:48.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://polarwatch.github.io/datamanagement/guidelines/metadata.html</loc>
+    <lastmod>2024-04-02T18:39:48.396Z</lastmod>
   </url>
 </urlset>
