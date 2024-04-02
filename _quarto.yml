@@ -2,21 +2,34 @@ project:
   type: website
 
 website:
+  bread-crumbs: true
   title: PolarWatch Data Management
   navbar:
     background: primary
     search: true
     left:
-      - text: "Data Management Plan"
-        file: dmp_template.qmd
-      - text: "AI Ready Checklist"
-        file: ai-ready-data-checklist-v.1.0.md
-      - text: "Metadata List"
-        file: data.md       
+      # - text: "Home"
+      #   file:  home.md
+      - text: "Guidelines"
+        menu:
+          - text: "PolarWatch Metadata"
+            file: guidelines/metadata.md
+          # - text: "Data Management Plan"
+          #   file: guidelines/dmp_template.md
+          - text: "AI Ready Checklist"
+            file: guidelines/ai-ready-data-checklist-v.1.0.md
+        
+      - text: "Data List"
+        file: data.md    
+
 
 format:
   html:
+    grid:
+      sidebar-width: 100px
+      body-width: 1000px
     theme: flatly
     css: styles.css
     toc: true
 
+# https://quarto.org/docs/output-formats/page-layout.html#page-layout

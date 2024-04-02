@@ -1,5 +1,5 @@
 # AI Ready Checklist
-source: https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md
+Source: [https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md](https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md)
 
 The checklist is developed using the 2019 draft readiness matrix developed by the Office of 
 Science and Technology Policy Subcommittee on Open Science as a basis. The checklist has been 

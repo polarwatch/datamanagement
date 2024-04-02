@@ -1,8 +1,8 @@
 
-# Data Management Plan (DMP)
-::: {.callout-warning title="Not for use"}
-This document is a working copy and not intended for use.
-:::
+# Data Management: nesdis_blendedsic_shem_daily
+> Updated Apr 3, 2024
+
+
 ## Data Description 
 This dataset represents the 1km Blended sea ice concentration for the Arctic, 
 utilizing data from the AMSR2 instrument aboard the GCOM-W1 satellite and VIIRS 
@@ -59,57 +59,31 @@ For software readable projection information is stored in the following attribut
 
 
 ## Storage and Backup
-Data are stored in directory on the PolarWatch data server and ERDDAP points to the directory.
-Data are automatically backed up on a PolarWatch backup server.  
+Data are stored in directory on the PolarWatch data server and ERDDAP points to the directory.  Data are automatically backed up on a PolarWatch backup server. 
 In the case of the event of an accident, the recovery will be handled by PolarWatch team. 
 
 
 ## Policies for Access and Sharing
-Data are publically accessible without authentication.  ERDDAP is the primary data distribution system with a web interface.  
+Data are publically accessible. Please use [NCEI Data Licensing](https://www.ncei.noaa.gov/archive#:~:text=Because%20works%20of%20the%20US%20government%20are,license%20to%20that%20portion%20of%20its%20holdings.)
+.   ERDDAP is the primary data distribution system with a web interface.  
 
-[PolarWatch Catalog](https://polarwatch.noaa.gov/catalog/) has a list of data products users can search and view. 
-Users can visit the catalog to search for the data product.  
+Data can be searched and accessed: 
 
-
-* Users can go to the ERDDAP Webpage to preview, subset data to download or just download the files.
-* Users can use [ERDDAP RESTful web services](https://polarwatch.noaa.gov/erddap/rest.html) for software to access data.
+* [PolarWatch Catalog](https://polarwatch.noaa.gov/catalog/) or [PolarWatch ERDDAP Web Interface](https://polarwatch.noaa.gov/erddap/)
+* [ERDDAP RESTful web services](https://polarwatch.noaa.gov/erddap/rest.html) for software to access data.
 * [Tutorials and code samples](https://github.com/coastwatch-training/CoastWatch-Tutorials) are available to access data and metadata in commonly used languages (i.e. R, Python)
-    
+* Contact PolarWatch Operatins Manager at polar.watch@noaa.gov
 
-::: {.callout-tip title="Note"}
-CHECK FOR STANDARD LICENSE
-:::
 
 ## Plans for archiving data, samples, and other research products, and for preservation of access to them
 
-This section should cover your long-term strategy for preserving the data produced during your project. See section on data archiving.
 
-
-* What data will be preserved for the long-term?
-* What is the long-term strategy for maintaining, curating and archiving the data?
-* Where will it be preserved?
-* Which archive/repository/database have you identified as a place to deposit data?
-* What procedures does your intended long-term data storage facility have in place for preservation and backup?
-* How long will/should data be kept beyond the life of the project?
-* Data transformations/formats needed
-* What transformations will be necessary to prepare data for preservation / data sharing?
-* What metadata/ documentation will be submitted alongside the data or created on deposit/ transformation in order to make the data reusable?
-* What related information will be deposited?
-
-::: {.callout-tip title="TODO"}
-This is a good discussion topic
-:::
+PolarWatch collaborates with data developers to manage and distribute both actively updated datasets and those that have become deprecated. While ensuring continued access to these varied datasets, it's important to note that PolarWatch does not serve as an archive for data.
 
 
 ## Roles and Responsibilities
 
 * The PolarWatch Operations Manager is tasked with the implementation, documentation, and periodic updating of the Data Management Plan.
-* The data workflow is designed to be automated. This process is closely monitored, with automatic notifications being sent out in the event of any errors. [TODO: Further details or steps to be added].
+* The data workflow is designed to be automated. This process is closely monitored, with automatic notifications being sent out in the event of any errors. 
 * The documentation for internal data processing is accessible internally, ensuring that relevant team members can access it as needed. Additionally, all scripts associated with this processing are stored in a private repository.
 
-
-::: {.callout-tip title="TODO"}
-* Implement QC (readin metadata and check for attributes?)
-* Check failure and notify ops manager?
-* Add more info about projection attributes in metadata section
-:::

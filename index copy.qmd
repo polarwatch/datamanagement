@@ -1,0 +1,35 @@
+---
+title: "PolarWatch Metadata"
+---
+:::{.callout-warning title="Note"}
+This document is a working copy.
+:::
+
+This repository serves as a place to share data management workflow and guidelines for data (and metadata) products intended for hosting on the PolarWatch ERDDAP Server.
+
+### Data Management
+
+The objective of PolarWatch is to disseminate remote sensing data, ensuring they are readily available. Consequently, the PolarWatch DMP focuses on aspects of the data lifecycle pertinent to its operations, such as data ingestion, processing, quality control, and management.
+
+```{mermaid}
+flowchart LR
+  A(Get Data from Source) -->B(Process, Q/C Data)
+  A --> D(Create Metadata)
+  B --> C(Store Data)
+  C --> G(Backup Data)
+  B --> D(Create Metadata)
+  C --> F(Make Data Accessible)
+  D --> F
+```
+Diagram: General PolarWatch data workflow
+
+
+The DMP Page provides an overview of the DMP components along with their detailed descriptions.
+
+### AI-Ready Checklist
+This checklist is developed through a collaboration of ESIP Data Readiness Cluster members include representatives from NOAA, NASA, USGS, and other organizations. The checklist will be updated periodically to reflect community feedback. The checklist aims to provide comprehensive metadata to support AI-ready research.
+
+source: https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md
+
+### Data List
+The Data List page presents a catalog of PolarWatch data products, including links to their respective DMP and AI-Ready documentation.

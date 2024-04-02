@@ -1,6 +1,7 @@
 
 # Data Management Plan (DMP)
 
+In support of Open Science and Open Data, PolarWatch plans to share Data Management Plan.
 
 [Source: https://guides.library.oregonstate.edu/dmp/general#s-lg-box-7689540](https://guides.library.oregonstate.edu/dmp/general#s-lg-box-7689540)
 
