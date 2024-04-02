@@ -17,10 +17,11 @@ On the __Data List__ page, users can access a variety of resources, including:
 ### For Data Developers
 
 Guidelines and recommendations can be found on the __Guidelines__ page:
+* __Data Processing Workflow__: Offers an overview of the methods PolarWatch employs to process and distribute data.
 
 * __PolarWatch Metadata Recommendations:__ These guidelines are designed for data products hosted on the PolarWatch ERDDAP Server, outlining metadata attributes and descriptions in accordance with established industry convention standards, as noted in the Standard column.
 
-* __AI-Ready Checklist Guidelines:__ Presents a set of guidelines and recommendations for crafting metadata that meets the criteria for AI-ready open environmental data. This document mirrors [the latest version available from the source repository](https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md)., ensuring users have access to the most current standards.
+* __AI-Ready Checklist Guidelines:__ Presents a set of guidelines and recommendations for crafting metadata that meets the criteria for AI-ready open environmental data. This document mirrors [the latest version available from the source repository](https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md), ensuring users have access to the most current standards.
  
 
 
