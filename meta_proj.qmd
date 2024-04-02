@@ -1,0 +1,20 @@
+---
+title: "Metadata"
+---
+:::{.callout-warning title="Note"}
+For projection information
+:::
+
+### in NetCDF
+grid_mapping = "NAME OF VARIABLE THAT HAS PROJ INFO"
+
+### Example
+
+seaiceconc 
+    :grid_mapping = "projection"
+
+projection 
+    :srid = "EPSG:3413"
+
+https://spatialreference.org/
+

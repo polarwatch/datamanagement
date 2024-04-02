@@ -2,6 +2,7 @@
 modified: 2024-02-13
 ---
 
+# AI-Ready: nesdis_blendedsic_nhem_daily
 ## General Information
 - [Link to Data Landing Page](https://polarwatch.noaa.gov/catalog/ice-conc-nh-blended-nesdis/preview)
   - Name : Blended Sea Ice Concentration from AMSR2/VIIRS Daily 1km, Arctic
@@ -71,7 +72,7 @@ modified: 2024-02-13
 - Is there a mechanism for user feedback and suggestions? _Yes_
 - Are there example codes/notebooks/toolkits available showing how the data can be used? _Yes_ 
 - What is the license for the data? 
-  - _These data may be redistributed and used without restriction_
+  - [NCEI Data Licensing](https://www.ncei.noaa.gov/archive#:~:text=Because%20works%20of%20the%20US%20government%20are,license%20to%20that%20portion%20of%20its%20holdings.) _These data may be redistributed and used without restriction_
   - Is the license standardized and machine-readable (e.g. Creative Commons)?  _Yes_
 - Has this dataset already been used in AI or ML activities? _No_
 - Are there recommendations on the intended use of the data, and uses that are not recommended? _Yes_ [TODO: link to documentation]
@@ -129,5 +130,4 @@ modified: 2024-02-13
 * STAR Team to create a white paper on intended use of blended SIC
 * PolarWatch to check pole hole values in the dataset
 * PolarWatch to create a Data Management Plan
-* PolarWatch to contact NCEI for more info on license standards
 :::

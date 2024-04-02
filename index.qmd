@@ -1,36 +1,26 @@
 ---
-title: "PolarWatch Data Management"
+title: "PolarWatch Metadata Information Page"
 ---
-:::{.callout-warning title="Note"}
-This document is a working copy.
-:::
 
-This repository serves as a  resource for the data management practices of PolarWatch. It includes documents and plans dedicated to the management of data throughout its lifecycle.
+The PolarWatch Metadata Information Page is designed to provide comprehensive metadata-related information on the data products distributed by PolarWatch, emphasizing adherence to FAIRS and Open Data principles. 
 
-### Data Management Plan (DMP) 
-A Data Management Plan (DMP) is a living document that details the data lifecycle, encompassing data creation, processing, access, ownership, and management strategies and tools.
+Furthermore, it aims to facilitate both current and future data product distributions through the PolarWatch data server by offering detailed metadata guidelines and recommendations.
 
-The objective of PolarWatch is to disseminate remote sensing data, ensuring they are readily available. Consequently, the PolarWatch DMP focuses on aspects of the data lifecycle pertinent to its operations, such as data ingestion, processing, quality control, and management.
+### For Data Users
 
-```{mermaid}
-flowchart LR
-  A(Get Data from Source) -->B(Process, Q/C Data)
-  A --> D(Create Metadata)
-  B --> C(Store Data)
-  C --> G(Backup Data)
-  B --> D(Create Metadata)
-  C --> F(Make Data Accessible)
-  D --> F
-```
-Diagram: General PolarWatch data workflow
+On the __Data List__ page, users can access a variety of resources, including:
+
+* __Data Change Logs:__  Provides updates on any modifications to data products, such as variable adjustments or corrections to missing dates.
+* __AI-Ready Checklist__: Delivers metadata specifications for AI-ready open environmental data, ensuring readiness for artificial intelligence applications.
+* __Data/Server Availability__: Supplies notifications regarding the availability of data or server access, keeping users informed of operational status.
+
+### For Data Developers
+
+Guidelines and recommendations can be found on the __Guidelines__ page:
+
+* __PolarWatch Metadata Recommendations:__ These guidelines are designed for data products hosted on the PolarWatch ERDDAP Server, outlining metadata attributes and descriptions in accordance with established industry convention standards, as noted in the Standard column.
+
+* __AI-Ready Checklist Guidelines:__ Presents a set of guidelines and recommendations for crafting metadata that meets the criteria for AI-ready open environmental data. This document mirrors [the latest version available from the source repository](https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md)., ensuring users have access to the most current standards.
+ 
 
 
-The DMP Page provides an overview of the DMP components along with their detailed descriptions.
-
-### AI-Ready Checklist
-This checklist is developed through a collaboration of ESIP Data Readiness Cluster members include representatives from NOAA, NASA, USGS, and other organizations. The checklist will be updated periodically to reflect community feedback. The checklist aims to provide comprehensive metadata to support AI-ready research.
-
-source: https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md
-
-### Data List
-The Data List page presents a catalog of PolarWatch data products, including links to their respective DMP and AI-Ready documentation.
