@@ -75,8 +75,7 @@ Data can be searched and accessed:
 * Contact PolarWatch Operatins Manager at polar.watch@noaa.gov
 
 
-## Plans for archiving data, samples, and other research products, and for preservation of access to them
-
+## Plans for archiving data
 
 PolarWatch collaborates with data developers to manage and distribute both actively updated datasets and those that have become deprecated. While ensuring continued access to these varied datasets, it's important to note that PolarWatch does not serve as an archive for data.
 
