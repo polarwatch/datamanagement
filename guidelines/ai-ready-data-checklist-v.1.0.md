@@ -1,4 +1,7 @@
 # AI Ready Checklist
+
+> Updated 04/03/2024
+
 Source: [https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md](https://github.com/ESIPFed/data-readiness/blob/main/checklist-published/ai-ready-data-checklist-v.1.0.md)
 
 The checklist is developed using the 2019 draft readiness matrix developed by the Office of 
