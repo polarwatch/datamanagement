@@ -8,7 +8,7 @@ Here are the metadata guidelines for data products intended for hosting on the P
 * [NetCDF Climate and Forecast (CF) ](https://cfconventions.org/cf-conventions/cf-conventions.html)
 * [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/netcdf-templates)
 
-[Link to a google sheet as a template](https://docs.google.com/spreadsheets/d/18MOIW_KrYAy1eDC0vRP61J-pWjSQeiMLl_djF15760Q/edit#gid=0) 
+[Link to a template (excel sheet)](/resources/PolarWatch_Metadata_Guidance.xlsx)
 
 For any questions or assistance, please contact PolarWatch Ops Manager at polar.watch@noaa.gov
 
