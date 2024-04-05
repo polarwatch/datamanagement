@@ -17,7 +17,8 @@ On the __Data List__ page, users can access a variety of resources, including:
 ### For Data Developers
 
 Guidelines and recommendations can be found on the __Guidelines__ page:
-* __Data Processing Workflow__: Offers an overview of the methods PolarWatch employs to process and distribute data.
+
+* __Data Processing Workflow__: an overview of the methods PolarWatch employs to process and distribute data.
 
 * __PolarWatch Metadata Recommendations:__ These guidelines are designed for data products hosted on the PolarWatch ERDDAP Server, outlining metadata attributes and descriptions in accordance with established industry convention standards, as noted in the Standard column.
 
