@@ -79,11 +79,6 @@ modified: 2024-02-13
 
 
 ::: {.callout-tip title="Note"}
-* Ask NCEI for license information
-* Science Team: White paper for recommendations on the intended use of the product as a disclaimer and link the document
-
-:::
-
 
 ## Data Access  
 - What is/are the major file formats? netcdf
@@ -119,15 +114,6 @@ modified: 2024-02-13
 - Are there associated targets or labels for supervised learning techniques (i.e., can this be
   used as a training dataset for supervised learning techniques)? _Yes_
 
-::: {.callout-tip title="Note"}
-* Check for the Pole hole
-:::
 
 ##  Additional Metadata
 * PolarWatch Metadata: https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_nhem_daily/index.html 
-
-::: {.callout-important title="TO DO"}
-* STAR Team to create a white paper on intended use of blended SIC
-* PolarWatch to check pole hole values in the dataset
-* PolarWatch to create a Data Management Plan
-:::

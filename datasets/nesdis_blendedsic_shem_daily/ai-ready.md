@@ -72,14 +72,6 @@
 - Has this dataset already been used in AI or ML activities? _No_
 - Are there recommendations on the intended use of the data, and uses that are not recommended? _Yes_ [TODO: link to documentation]
 
-
-::: {.callout-tip title="Note"}
-* Ask NCEI for license information
-* Science Team: White paper for recommendations on the intended use of the product as a disclaimer and link the document
-
-:::
-
-
 ## Data Access  
 - What is/are the major file formats? netcdf
   - Is this format machine-readable? _Yes_ 
@@ -114,17 +106,7 @@
 - Are there associated targets or labels for supervised learning techniques (i.e., can this be
   used as a training dataset for supervised learning techniques)? _Yes_
 
-::: {.callout-tip title="Note"}
-* Check for the Pole hole
-:::
-
 
 ##  Additional Metadata
 * PolarWatch Metadata: https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_shem_daily/index.html 
 
-::: {.callout-important title="TO DO"}
-* STAR Team to create a white paper on intended use of blended SIC
-* PolarWatch to check pole hole values in the dataset
-* PolarWatch to create a Data Management Plan
-* PolarWatch to contact NCEI for more info on license standards
-:::
