@@ -1,1 +1,13 @@
 /* css styles */
+.auto_width {
+    width: auto !important; /* Auto-adjust to content */
+    display: table; /* Or 'inline-block' for smaller tables */
+}
+
+.to_left {
+    margin-left: 0;
+}
+
+.to_center {
+    margin: 0 auto;
+}
