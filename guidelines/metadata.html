@@ -142,7 +142,10 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#strongly-recommended-1" id="toc-strongly-recommended-1" class="nav-link" data-scroll-target="#strongly-recommended-1">Strongly Recommended</a></li>
   </ul></li>
-  <li><a href="#spatial-reference" id="toc-spatial-reference" class="nav-link" data-scroll-target="#spatial-reference">Spatial Reference</a></li>
+  <li><a href="#spatial-reference" id="toc-spatial-reference" class="nav-link" data-scroll-target="#spatial-reference">Spatial Reference</a>
+  <ul class="collapse">
+  <li><a href="#strongly-recommended-2" id="toc-strongly-recommended-2" class="nav-link" data-scroll-target="#strongly-recommended-2">Strongly Recommended</a></li>
+  </ul></li>
   <li><a href="#change-history" id="toc-change-history" class="nav-link" data-scroll-target="#change-history">Change History</a></li>
   </ul></li>
   </ul>
@@ -583,22 +586,113 @@ ul.task-list li input[type="checkbox"] {
 <td>https://mmisw.org/ont/ioos/category</td>
 <td></td>
 </tr>
-<tr class="even">
-<td>grid_mapping</td>
-<td>name of variable that has projection (crs) information for the variable</td>
-<td></td>
-</tr>
 </tbody>
 </table>
 </section>
 </section>
 <section id="spatial-reference" class="level2">
 <h2 class="anchored" data-anchor-id="spatial-reference">Spatial Reference</h2>
-<p>Spatial reference attributes are highly recommended for datasets distributed with projected coordinates.</p>
+<p>Spatial reference attributes are highly recommended for <em>datasets distributed with projected coordinates</em>.</p>
+<section id="strongly-recommended-2" class="level3">
+<h3 class="anchored" data-anchor-id="strongly-recommended-2">Strongly Recommended</h3>
+<table class="table-striped table-hover table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 90%">
+<col style="width: 2%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute Name</th>
+<th>Description</th>
+<th>Standards</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>grid_mapping_name</td>
+<td>A long descriptive name for the variable (not necessarily from a controlled vocabulary). This attribute is recommended by the NetCDF Users Guide, the COARDS convention, and the CF convention.</td>
+<td>CF, ACDD</td>
+</tr>
+<tr class="even">
+<td>crs</td>
+<td>A long descriptive name for the variable taken from a controlled vocabulary of variable names. We recommend using the CF convention and the variable names from the CF standard name table. This attribute is recommended by the CF convention.</td>
+<td>CF, ACDD</td>
+</tr>
+<tr class="odd">
+<td>crs_proj4text</td>
+<td>The units of the variable’s data values. This attribute value should be a valid udunits string. The “units” attribute is recommended by the NetCDF Users Guide, the COARDS convention, and the CF convention.</td>
+<td>CF, ACDD</td>
+</tr>
+<tr class="even">
+<td>crs_spatial_ref</td>
+<td>An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).</td>
+<td>ACDD</td>
+</tr>
+<tr class="odd">
+<td>crs_units</td>
+<td>An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).</td>
+<td>ACDD</td>
+</tr>
+<tr class="even">
+<td>earth_radius</td>
+<td>An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).</td>
+<td>ACDD</td>
+</tr>
+<tr class="odd">
+<td>inverse_flattening</td>
+<td>A long descriptive name for the variable (not necessarily from a controlled vocabulary). This attribute is recommended by the NetCDF Users Guide, the COARDS convention, and the CF convention.</td>
+<td>CF, ACDD</td>
+</tr>
+<tr class="even">
+<td>longitude_of_prime_meridian</td>
+<td>A long descriptive name for the variable taken from a controlled vocabulary of variable names. We recommend using the CF convention and the variable names from the CF standard name table. This attribute is recommended by the CF convention.</td>
+<td>CF, ACDD</td>
+</tr>
+<tr class="odd">
+<td>prime_meridian_name</td>
+<td>The units of the variable’s data values. This attribute value should be a valid udunits string. The “units” attribute is recommended by the NetCDF Users Guide, the COARDS convention, and the CF convention.</td>
+<td>CF, ACDD</td>
+</tr>
+<tr class="even">
+<td>reference_ellipsoid_name</td>
+<td>An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).</td>
+<td>ACDD</td>
+</tr>
+<tr class="odd">
+<td>semi_major_axis</td>
+<td>An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).</td>
+<td>ACDD</td>
+</tr>
+<tr class="even">
+<td>semi_minor_axis</td>
+<td>An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).</td>
+<td>ACDD</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="change-history" class="level2">
 <h2 class="anchored" data-anchor-id="change-history">Change History</h2>
-<p>03/20/2024 | content uploaded to Github</p>
+<table class="table-striped table-hover auto_width to_left table">
+<thead>
+<tr class="header">
+<th>date logged</th>
+<th>activity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>03/20/2024</td>
+<td>content uploaded to Github</td>
+</tr>
+<tr class="even">
+<td>04/11/2024</td>
+<td>added spatial reference attributes</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
