@@ -1,5 +1,7 @@
 # Logs: nesdis_blendedsic_nhem_daily
 
 
-* March 20, 2024 - Missing data from 03/17/2024 - 03/24/2024 due to orbit rephasing effort
+| Date Logged | Dates Affected | Data Status | Additional Note |
+|----------|----------|----------|----------|
+| 03/20/2024 | 03/17/2024-03/24/2024 | missing | orbit rephasing effort|
 

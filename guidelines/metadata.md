@@ -109,13 +109,36 @@ Variable attributes provide detailed information about each individual variable 
 |units         |The units of the variable's data values. This attribute value should be a valid udunits string. The "units" attribute is recommended by the NetCDF Users Guide, the COARDS convention, and the CF convention.                                                                                                              |CF, ACDD  |
 |coverage_content_type|An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).                                                                                                                   |ACDD      |
 |ioos_category |https://mmisw.org/ont/ioos/category                                                                                                                                                                                                                                                                                        |          |
-|grid_mapping  |name of variable that has projection (crs) information for the variable                                                                                                                                                                                                                                                    |          |
+
 : {.striped .hover}
 
-## Spatial Reference
-Spatial reference attributes are highly recommended for datasets distributed with projected coordinates. 
+## Spatial Reference 
+Spatial reference attributes are highly recommended for _datasets distributed with projected coordinates_. 
 
+### Strongly Recommended
+|Attribute Name|Description                                                                                                                                                                                                                                                                                                                |Standards |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+|grid_mapping_name     |A long descriptive name for the variable (not necessarily from a controlled vocabulary). This attribute is recommended by the NetCDF Users Guide, the COARDS convention, and the CF convention.                                                                                                                            |CF, ACDD  |
+|crs |A long descriptive name for the variable taken from a controlled vocabulary of variable names. We recommend using the CF convention and the variable names from the CF standard name table. This attribute is recommended by the CF convention.                                                                            |CF, ACDD  |
+|crs_proj4text         |The units of the variable's data values. This attribute value should be a valid udunits string. The "units" attribute is recommended by the NetCDF Users Guide, the COARDS convention, and the CF convention.                                                                                                              |CF, ACDD  |
+|crs_spatial_ref|An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).                                                                                                                   |ACDD      |
+|crs_units|An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).                                                                                                                   |ACDD      |
+|earth_radius|An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).                                                                                                                   |ACDD      |
+|inverse_flattening     |A long descriptive name for the variable (not necessarily from a controlled vocabulary). This attribute is recommended by the NetCDF Users Guide, the COARDS convention, and the CF convention.                                                                                                                            |CF, ACDD  |
+|longitude_of_prime_meridian |A long descriptive name for the variable taken from a controlled vocabulary of variable names. We recommend using the CF convention and the variable names from the CF standard name table. This attribute is recommended by the CF convention.                                                                            |CF, ACDD  |
+|prime_meridian_name         |The units of the variable's data values. This attribute value should be a valid udunits string. The "units" attribute is recommended by the NetCDF Users Guide, the COARDS convention, and the CF convention.                                                                                                              |CF, ACDD  |
+|reference_ellipsoid_name|An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).                                                                                                                   |ACDD      |
+|semi_major_axis|An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).                                                                                                                   |ACDD      |
+|semi_minor_axis|An ISO 19115-1 code to indicate the source of the data (image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult, or coordinate).   |ACDD |
+ 
+
+                    
+                                                                                                                                                      
+: {.striped .hover}
 
 ## Change History
-
-03/20/2024 | content uploaded to Github
+| date logged | activity |
+| ----- | ------|
+| 03/20/2024 | content uploaded to Github |
+| 04/11/2024 | added spatial reference attributes |
+: {.striped .hover .auto_width .to_left}

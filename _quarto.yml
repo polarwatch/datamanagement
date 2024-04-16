@@ -4,6 +4,7 @@ project:
 website:
   bread-crumbs: true
   title: PolarWatch Data Management
+  repo-actions: [issue]
   navbar:
     background: primary
     search: true
@@ -18,10 +19,12 @@ website:
           #   file: guidelines/dmp_template.md
           - text: "AI Ready Checklist"
             file: guidelines/ai-ready-data-checklist-v.1.0.md
-        
       - text: "Data List"
         file: data.md    
-
+    right:
+      - icon: github
+        href: https://github.com/polarwatch/datamanagement
+	
 
 format:
   html:
