@@ -24,8 +24,6 @@ website:
     right:
       - icon: github
         href: https://github.com/polarwatch/datamanagement
-	
-
 format:
   html:
     grid:
