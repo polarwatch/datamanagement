@@ -21,6 +21,9 @@ website:
         
       - text: "Data List"
         file: data.md    
+    right:
+      - icon: github
+        href: https://github.com/polarwatch/datamanagement
 
 
 format:
