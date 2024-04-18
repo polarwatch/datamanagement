@@ -26,7 +26,7 @@ respectively. These files can be downloaded from the PolarWatch ERDDAP server.
 
 
 * Arctic file download : [https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_nhem_1k/](https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_nhem_1k/)
-* Antarctic file download : [https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_nhem_1k/](https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_nhem_1k/)
+* Antarctic file download : [https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_shem_1k/](https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_shem_1k/)
 
 
 
