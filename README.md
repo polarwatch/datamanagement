@@ -1,5 +1,5 @@
 
-# The PolarWatch Data Management Plan
+# The PolarWatch Data Management Page
 
 This is the repository for the PolarWatch Data Mamangement Page.
 The Page is to provide additional information and updates about some of the data products distributed on PolarWatch data server.  
