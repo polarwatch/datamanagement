@@ -1,8 +1,11 @@
 
 # The PolarWatch Data Management Plan
 
-This is the repository for the PolarWatch 
+This is the repository for the PolarWatch Data Mamangement Page.
+The Page is to provide additional information and updates about some of the data products distributed on PolarWatch data server.  
 
-This is the repository for the PolarWatch Data Management Plan (DMP). The goal of the DMP is to document the data life cycle of PolarWatch and to promote FAIR practices.
+This repository hosts the PolarWatch Data Management Page. 
+The page is designed to offer additional 
+information and updates regarding data products available on the PolarWatch data server.
 
-The DMP is a liviing document.
+For any questions or request for corrections, please submit issues or send email to polar.watch@noaa.gov
