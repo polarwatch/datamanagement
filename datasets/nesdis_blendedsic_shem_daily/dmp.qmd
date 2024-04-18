@@ -21,7 +21,7 @@ where they can also be previewed in the [PolarWatch Catalog](https://polarwatch.
 
 :::{.callout-important title="disclaimer"}
 PolarWatch ERDDAP enables data subsetting and downloading in various formats through the Data Download Form. However, 
-please note that this dataset is provided in EASE-2 (EPSG:6931) coordinates. 
+please note that this dataset is provided in EASE-2 (EPSG:6932) coordinates. 
 For optimal results, direct file downloads from ERDDAP File page are strongly recommended.
 :::
 
@@ -54,7 +54,7 @@ ERDDAP metadata: https://polarwatch.noaa.gov/erddap/info/nesdis_blendedsic_nhem_
 
 
 ::: {.callout-tip title="Projection attributes"}
-For software readable projection information is stored in the following attributes ```srid```, ```proj4text```, ```grid_mapping``` , ```grid_mapping_epsg_code: 6931```.
+For software readable projection information is stored in the following attributes ```srid```, ```proj4text```, ```grid_mapping``` , ```grid_mapping_epsg_code: 6932```.
 :::
 
 
