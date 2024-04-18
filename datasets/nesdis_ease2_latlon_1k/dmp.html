@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,9 +66,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PolarWatch Data Management</span>
     </a>
   </div>
@@ -94,17 +97,17 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-guidelines">    
         <li>
-    <a class="dropdown-item" href="./guidelines/metadata.html">
+    <a class="dropdown-item" href="../../guidelines/metadata.html">
  <span class="dropdown-text">PolarWatch Metadata</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./guidelines/ai-ready-data-checklist-v.1.0.html">
+    <a class="dropdown-item" href="../../guidelines/ai-ready-data-checklist-v.1.0.html">
  <span class="dropdown-text">AI Ready Checklist</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./data.html" aria-current="page"> 
+    <a class="nav-link" href="../../data.html"> 
 <span class="menu-text">Data List</span></a>
   </li>  
 </ul>
@@ -130,7 +133,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#polarwatch-data-list" id="toc-polarwatch-data-list" class="nav-link active" data-scroll-target="#polarwatch-data-list">PolarWatch Data List</a></li>
+  <li><a href="#data-management-nesdis_blendednesdis_ease2_latlon_nhem_1k-nesdis_ease2_latlon_shem_1k" id="toc-data-management-nesdis_blendednesdis_ease2_latlon_nhem_1k-nesdis_ease2_latlon_shem_1k" class="nav-link active" data-scroll-target="#data-management-nesdis_blendednesdis_ease2_latlon_nhem_1k-nesdis_ease2_latlon_shem_1k">Data Management: <br> nesdis_blendednesdis_ease2_latlon_nhem_1k, nesdis_ease2_latlon_shem_1k</a>
+  <ul class="collapse">
+  <li><a href="#data-description" id="toc-data-description" class="nav-link" data-scroll-target="#data-description">Data Description</a></li>
+  <li><a href="#process-description" id="toc-process-description" class="nav-link" data-scroll-target="#process-description">Process Description</a></li>
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a></li>
+  <li><a href="#storage-and-backup" id="toc-storage-and-backup" class="nav-link" data-scroll-target="#storage-and-backup">Storage and Backup</a></li>
+  <li><a href="#policies-for-access-and-sharing" id="toc-policies-for-access-and-sharing" class="nav-link" data-scroll-target="#policies-for-access-and-sharing">Policies for Access and Sharing</a></li>
+  <li><a href="#plans-for-archiving-data" id="toc-plans-for-archiving-data" class="nav-link" data-scroll-target="#plans-for-archiving-data">Plans for archiving data</a></li>
+  <li><a href="#roles-and-responsibilities" id="toc-roles-and-responsibilities" class="nav-link" data-scroll-target="#roles-and-responsibilities">Roles and Responsibilities</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -140,25 +152,129 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="polarwatch-data-list" class="level3">
-<h3 class="anchored" data-anchor-id="polarwatch-data-list">PolarWatch Data List</h3>
-<p><em>with PolarWatch unique dataset IDs</em></p>
+<section id="data-management-nesdis_blendednesdis_ease2_latlon_nhem_1k-nesdis_ease2_latlon_shem_1k" class="level1">
+<h1>Data Management: <br> nesdis_blendednesdis_ease2_latlon_nhem_1k, nesdis_ease2_latlon_shem_1k</h1>
+<blockquote class="blockquote">
+<p>Updated Apr 18, 2024</p>
+</blockquote>
+<section id="data-description" class="level2">
+<h2 class="anchored" data-anchor-id="data-description">Data Description</h2>
+<p>This dataset includes latitude and longitude grids that correspond to the Y-grid and X-grid used in the NESDIS sea ice products in the Arctic and Antarctic.</p>
+<p>Presented in the EASE-2 (Equal-Area Scalable Earth-2) projection at a 1km resolution, this dataset serves as ancillary data to the sea ice data products (nesdis_blendedsic_nhem_daily, nesdis_blendedsic_shem_daily) in the same projection:</p>
+<table class="table-striped table-hover auto_width to_center table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ancillary data identifier</th>
+<th>Remote sensing data identifier</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>nesdis_blendednesdis_ease2_latlon_nhem_1k</td>
+<td>nesdis_blendedsic_nhem_daily</td>
+</tr>
+<tr class="even">
+<td>nesdis_blendednesdis_ease2_latlon_shem_1k</td>
+<td>nesdis_blendedsic_shem_daily</td>
+</tr>
+</tbody>
+</table>
+<p><em>* data identifiers are unique data ids used on the PolarWatch ERDDAP data server</em></p>
+<p>The file sizes for the Arctic and Antarctic data files are approximately 490MB and 395MB, respectively. These files can be downloaded from the PolarWatch ERDDAP server.</p>
 <ul>
-<li>Blended Sea Ice Concentration from AMSR2/VIIRS Daily 1km, Arctic (nesdis_blendedsic_nhem_daily)
+<li>Arctic file download : <a href="https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_nhem_1k/">https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_nhem_1k/</a></li>
+<li>Antarctic file download : <a href="https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_nhem_1k/">https://polarwatch.noaa.gov/erddap/files/nesdis_ease2_latlon_nhem_1k/</a></li>
+</ul>
+</section>
+<section id="process-description" class="level2">
+<h2 class="anchored" data-anchor-id="process-description">Process Description</h2>
+<p>The data files were developed by NESDIS in collaboration with the University of Wisconsin and provided to PolarWatch. Additional projection metadata attributes were added to the files, and they were compressed for efficient distribution.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A(File on FTP Server) --&gt;B(File Download to PolarWatch)
+  B --&gt; C(Metadata added to files, Compressed, Stored)
+  C --&gt; D(Accessible on ERDDAP)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="metadata" class="level2">
+<h2 class="anchored" data-anchor-id="metadata">Metadata</h2>
+<p>PolarWatch provides extensive metadata on ERDDAP in addition to embedded metadata in NetCDF. PolarWatch added additional crs (coordinate reference system) attributes to be machine readable by widely used software. The additional attributes are <code>srid</code>, <code>proj4text</code>, <code>spatial_ref</code>.</p>
+<p>The metadata standard used is CF-16, and both ERDDAP metadata and NetCDF metadata are machine readable.</p>
+<p><strong>Additional crs attributes added to files</strong></p>
+<pre><code># for northern hemisphere file (arctic)
+    crs:srid = "EPSG:6931" ;
+    crs:proj4text = "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+    crs:spatial_ref = "PROJCS[\"WGS 84 / NSIDC EASE-Grid 2.0 North\",GEOGCS[\"WGS 84\",
+      DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY
+      [\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",
+      0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY
+      [\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],
+      PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",0],
+      PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],
+      UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"6931\"]]" ;
+
+
+# For southern hemisphere file (antarctic)
+    crs:srid = "EPSG:6932" ;
+    crs:proj4text = "+proj=laea +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+    crs:spatial_ref = PROJCS[\"WGS 84 / NSIDC EASE-Grid 2.0 South\",
+    GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,
+    AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],
+    PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],
+    UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],
+    AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],
+    PARAMETER[\"latitude_of_center\",-90],PARAMETER[\"longitude_of_center\",0],
+    PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],
+    UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"6932\"]]
+</code></pre>
+<p><strong>ERDDAP metadata links</strong></p>
 <ul>
-<li><a href="datasets/nesdis_blendedsic_nhem_daily/dmp.html">Workflow</a> — <a href="datasets/nesdis_blendedsic_nhem_daily/ai-ready.html">AI-Ready</a> — <a href="datasets/nesdis_blendedsic_nhem_daily/logs.html">Log</a></li>
-</ul></li>
-<li>Blended Sea Ice Concentration from AMSR2/VIIRS Daily 1km, Antarctic (nesdis_blendedsic_shem_daily)
+<li>Arctic: https://polarwatch.noaa.gov/erddap/info/nesdis_ease2_latlon_nhem_1k/index.html</li>
+<li>Antarctic: https://polarwatch.noaa.gov/erddap/info/nesdis_ease2_latlon_shem_1k/index.html</li>
+</ul>
+</section>
+<section id="storage-and-backup" class="level2">
+<h2 class="anchored" data-anchor-id="storage-and-backup">Storage and Backup</h2>
+<p>Data are stored in directory on the PolarWatch data server and ERDDAP points to the directory. In the case of the event of an accident, the recovery will be handled by PolarWatch team.</p>
+</section>
+<section id="policies-for-access-and-sharing" class="level2">
+<h2 class="anchored" data-anchor-id="policies-for-access-and-sharing">Policies for Access and Sharing</h2>
+<p>Data are publically accessible. Please use <a href="https://www.ncei.noaa.gov/archive#:~:text=Because%20works%20of%20the%20US%20government%20are,license%20to%20that%20portion%20of%20its%20holdings.">NCEI Data Licensing</a> . ERDDAP is the primary data distribution system with a web interface.</p>
+<p>Data can be searched and accessed:</p>
 <ul>
-<li><a href="datasets/nesdis_blendedsic_shem_daily/dmp.html">Workflow</a> — <a href="datasets/nesdis_blendedsic_shem_daily/ai-ready.html">AI-Ready</a> — <a href="datasets/nesdis_blendedsic_shem_daily/logs.html">Log</a></li>
-</ul></li>
-<li>Latitudes and Longitudes for EASE-2 projected data at 1km, Arctic and Antarctic <br>(nesdis_ease2_latlon_nhem_1k, nesdis_ease2_latlon_shem_1k)
+<li><a href="https://polarwatch.noaa.gov/catalog/">PolarWatch Catalog</a> or <a href="https://polarwatch.noaa.gov/erddap/">PolarWatch ERDDAP Web Interface</a></li>
+<li><a href="https://polarwatch.noaa.gov/erddap/rest.html">ERDDAP RESTful web services</a> for software to access data.</li>
+<li><a href="https://github.com/coastwatch-training/CoastWatch-Tutorials">Tutorials and code samples</a> are available to access data and metadata in commonly used languages (i.e.&nbsp;R, Python)</li>
+<li>Contact PolarWatch Operatins Manager at polar.watch@noaa.gov</li>
+</ul>
+</section>
+<section id="plans-for-archiving-data" class="level2">
+<h2 class="anchored" data-anchor-id="plans-for-archiving-data">Plans for archiving data</h2>
+<p>PolarWatch collaborates with data developers to manage and distribute both actively updated datasets and those that have become deprecated. While ensuring continued access to these varied datasets, it’s important to note that PolarWatch does not serve as an archive for data.</p>
+</section>
+<section id="roles-and-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="roles-and-responsibilities">Roles and Responsibilities</h2>
 <ul>
-<li><a href="datasets/nesdis_ease2_latlon_1k/dmp.html">Workflow</a> — <a href="datasets/nesdis_ease2_latlon_1k/logs.html">Log</a></li>
-</ul></li>
+<li>The PolarWatch Operations Manager is tasked with the implementation, documentation, and periodic updating of the Data Management Plan.</li>
+<li>The data workflow is designed to be automated. This process is closely monitored, with automatic notifications being sent out in the event of any errors.</li>
+<li>The documentation for internal data processing is accessible internally, ensuring that relevant team members can access it as needed. Additionally, all scripts associated with this processing are stored in a private repository.</li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
