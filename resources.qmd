@@ -1,0 +1,10 @@
+---
+title: "Resources"
+---
+
+### Metadata validation tools
+* [https://cfconventions.org/](CF Metadata Conventions)
+
+
+### 
+* [https://www.noaa.gov/explainers/understanding-climate-normals](Undertanding Climate Normals)
