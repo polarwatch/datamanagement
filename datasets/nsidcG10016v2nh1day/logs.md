@@ -1,4 +1,4 @@
-# Logs: nesdis_blendedsic_nhem_daily
+# Logs: nsidcG10016v2nh1day
 
 
 | Date Logged | Dates Affected | Data Status | Additional Note |
