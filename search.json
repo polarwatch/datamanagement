@@ -359,9 +359,9 @@
   {
     "objectID": "datasets/nsidcG10016v2nh1day/logs.html",
     "href": "datasets/nsidcG10016v2nh1day/logs.html",
-    "title": "Logs: nesdis_blendedsic_nhem_daily",
+    "title": "Logs: nsidcG10016v2nh1day",
     "section": "",
-    "text": "Logs: nesdis_blendedsic_nhem_daily\n\n\n\n\n\n\n\n\n\nDate Logged\nDates Affected\nData Status\nAdditional Note\n\n\n\n\n09/26/2024\n09/12/2024-09/17/2024\nmissing\ntechnical issue with the ground station that acquires the SSMIS data. Due to the large temporal gap, interpolation (recovery) of the lost data was unsuccessful."
+    "text": "Logs: nsidcG10016v2nh1day\n\n\n\n\n\n\n\n\n\nDate Logged\nDates Affected\nData Status\nAdditional Note\n\n\n\n\n09/26/2024\n09/12/2024-09/17/2024\nmissing\ntechnical issue with the ground station that acquires the SSMIS data. Due to the large temporal gap, interpolation (recovery) of the lost data was unsuccessful."
   },
   {
     "objectID": "datasets/nesdis_blendedsic_nhem_daily/ai-ready.html",
