@@ -1,8 +1,8 @@
 ---
-title: "PolarWatch Metadata Information Page"
+title: "NOAA PolarWatch Metadata Information Page"
 ---
 
-The PolarWatch Metadata Information Page is designed to provide comprehensive metadata-related information on the data products distributed by PolarWatch, emphasizing adherence to FAIRS and Open Data principles. 
+The NOAA PolarWatch Metadata Information Page is designed to provide comprehensive metadata-related information on the data products distributed by PolarWatch, emphasizing adherence to FAIRS and Open Data principles. 
 
 Furthermore, it aims to facilitate both current and future data product distributions through the PolarWatch data server by offering detailed metadata guidelines and recommendations.
 
