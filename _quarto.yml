@@ -15,8 +15,8 @@ website:
         menu:
           - text: "PolarWatch Metadata"
             file: guidelines/metadata.md
-          # - text: "Data Management Plan"
-          #   file: guidelines/dmp_template.md
+          - text: "NOAA Data Management Plan"
+            file: guidelines/dmp_template.md
           - text: "AI Ready Checklist"
             file: guidelines/ai-ready-data-checklist-v.1.0.md
       - text: "Data List"

@@ -1,18 +1,10 @@
 # NOAA Data Management Plan (DMP) Template
 
-> Updated October 4, 2024
-
-The official NOAA Data Management Handbook was released on October 1, 2024, providing comprehensive guidelines and requirements for managing data throughout its life cycle.  The Appendix C of the Handbook contains Data Management Plan Template and this page is intended to provide easy access to the template to support our collabors in adhering to the guidelines.
-
-* Data Management Handbook : [Link to Complete NOAA Handbook](https://drive.google.com/file/d/1H0Sylq9dlby40xE27ipleWwGgQu6-rDu/view)
-* Appendix C - Data Management Plan Template : [PDF](../resources/NAO212-15B-DMP-template-releaseOct24.pdf) -- [Word](../resources/NAO212-15B-DMP-template-releaseOct24.docx) --  [Markdown](../resources/NAO212-15B-DMP-template-releaseOct24.md)
-
-
+Appendix C - Data Management Plan Template - [Link to NOAA Handbook](https://drive.google.com/file/d/1H0Sylq9dlby40xE27ipleWwGgQu6-rDu/view)
 
 ### 1.	General Description of Data
-::: {.callout-note}
-General Description of Data to be Acquired and Managed
-:::
+
+_General Description of Data to be Acquired and Managed_
 
 * Name of the Data, data collection Project, or data-producing Program:
 * Project Purpose and Abstract including summary description of the data:
@@ -30,9 +22,7 @@ General Description of Data to be Acquired and Managed
 
 ### 2. Point of Contact
 
-::: {.callout-note}
-Point of Contact for this Data Management Plan (author or maintainer)
-:::
+_Point of Contact for this Data Management Plan (author or maintainer)_
 
 * Name:
 * Title:
@@ -42,9 +32,7 @@ Point of Contact for this Data Management Plan (author or maintainer)
 
 ### 3. Responsible Party for Data Management
 
-::: {.callout-note}
-Program Managers, or their designee, shall be responsible for ensuring the proper management of the data produced by their Program. Please indicate the responsible party below.
-:::
+_Program Managers, or their designee, shall be responsible for ensuring the proper management of the data produced by their Program. Please indicate the responsible party below._
 
 * Position Title:
 * Name of current position holder:
@@ -54,9 +42,7 @@ Program Managers, or their designee, shall be responsible for ensuring the prope
 
 ###	4. Resources
 
-::: {.callout-note}
-Programs must identify resources within their own budget for managing the data they produce.
-:::
+_Programs must identify resources within their own budget for managing the data they produce._
 
 * Are there the appropriate level of resources available to manage these datasets throughout the data life cycle?
 * If the data are to be publicly accessible, are there the appropriate level of resources available to disseminate (make publicly available) these datasets?
@@ -64,19 +50,16 @@ Programs must identify resources within their own budget for managing the data t
 * What is the approximate percentage of the overall project budget for these data devoted to data management to ensure compliance with data management requirements (specify percentage or "unknown"):
 
 ###	5. Data Lineage and Quality
-::: {.callout-note}
-NOAA has issued Information Quality Guidelines for ensuring and maximizing the quality, objectivity, utility, and integrity of information which it disseminates.
 
-:::
+_NOAA has issued Information Quality Guidelines for ensuring and maximizing the quality, objectivity, utility, and integrity of information which it disseminates._
 
 * Processing workflow of the data from collection or acquisition to making it publicly accessible (describe or provide URL of description):
 * If data at different stages of the workflow, or products derived from these data, are subject to a separate data management plan, provide reference to other plan and provide data source details:
 * Quality control procedures employed (describe or provide URL of description):
 
 ### 6. Data Documentation
-::: {.callout-note}
-The Data Documentation Procedure requires that NOAA data be well documented, specifies the use of ISO 19115-2: 2009 and related standards for documentation of new data, and provides links to resources and tools for metadata creation and validation.
-:::
+
+_The Data Documentation Procedure requires that NOAA data be well documented, specifies the use of ISO 19115-2: 2009 and related standards for documentation of new data, and provides links to resources and tools for metadata creation and validation._
 
 * Does metadata comply with the Data Documentation requirements?
     * If metadata are non-existent or non-compliant, please explain:
@@ -86,10 +69,8 @@ The Data Documentation Procedure requires that NOAA data be well documented, spe
 * Process for producing and maintaining metadata (describe or provide URL of description):
 
 ###	7. Data Access
-::: {.callout-note}
-NAO 212-15 states that access to environmental data may only be restricted when distribution is explicitly limited by law, regulation, policy (such as those applicable to personally identifiable information or protected critical infrastructure information or proprietary trade information) or by security requirements. This restriction would include PII and other sensitive data (export controlled data) and data restricted by contract or other written, binding agreement (permitted to be withheld under the Evidence Act) including commercial data licensed via contract, data obtained from another third party subject to a restrictive license (international partner, CRADA, etc.).The Data Access section of this Handbook contains specific guidance, recommends the use of open-standard, interoperable, non-proprietary web services, defines timeliness, provides information about resources and tools to enable data access.
 
-:::
+_NAO 212-15 states that access to environmental data may only be restricted when distribution is explicitly limited by law, regulation, policy (such as those applicable to personally identifiable information or protected critical infrastructure information or proprietary trade information) or by security requirements. This restriction would include PII and other sensitive data (export controlled data) and data restricted by contract or other written, binding agreement (permitted to be withheld under the Evidence Act) including commercial data licensed via contract, data obtained from another third party subject to a restrictive license (international partner, CRADA, etc.).The Data Access section of this Handbook contains specific guidance, recommends the use of open-standard, interoperable, non-proprietary web services, defines timeliness, provides information about resources and tools to enable data access._
 
 * Do these data comply with the general data access requirements?
 * Intended data access method(s):
@@ -102,9 +83,9 @@ NAO 212-15 states that access to environmental data may only be restricted when 
     * (Specify [Exact Date]; No Delay; one year from Collection; one year from QA/QC; or 2 years from QA/QC; Exceeds 2 years from QA/QC; To Be Determined; Unable to Provide Access; Limited Access Only; or No Access Intended)
 
 ###	8. Data Preservation and Protection
-::: {.callout-note}
-The NOAA Procedure for Scientific Records Appraisal and Archive Approval14 describes how to identify, appraise and decide what scientific records are to be preserved in a NOAA archive.
-:::
+
+_The NOAA Procedure for Scientific Records Appraisal and Archive Approval14 describes how to identify, appraise and decide what scientific records are to be preserved in a NOAA archive._
+
 
 * What is the actual or planned long term data archive location:
 (Specify NCEI facility, or other specific archive, To Be Determined, Unable to Archive, or No Archiving Intended)
@@ -115,9 +96,9 @@ The NOAA Procedure for Scientific Records Appraisal and Archive Approval14 descr
 * How will the data be protected from accidental or malicious modification or deletion prior to receipt by the archive? Discuss data back-up, disaster recovery/contingency planning, and off-site data storage relevant to the data collection:
 
 ###	9. Additional Line Office or Staff Office Questions
-::: {.callout-note}
-Line and Staff Offices may extend this template by inserting additional questions in this section.
-:::
+
+_Line and Staff Offices may extend this template by inserting additional questions in this section._
+
 
 ### 10. Approval
 * Name
