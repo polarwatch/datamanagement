@@ -12,3 +12,6 @@ _with PolarWatch unique dataset IDs_
 
 * NSDIC Near-real-time Sea Ice Concentration Daily 25km, Arctic (nsidcG10016v2nh1day)
     + [Log](datasets/nsidcG10016v2nh1day/logs.html)   
+
+* NSDIC Near-real-time Sea Ice Concentration Daily 25km, Antarctic (nsidcG10016v2sh1day)
+    + [Log](datasets/nsidcG10016v2sh1day/logs.html)   
