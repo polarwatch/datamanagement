@@ -7,6 +7,7 @@ Here are the metadata guidelines for data products intended for hosting on the P
 * [Global Change Master Directory (GCMD)](https://www.earthdata.nasa.gov/technology/global-change-master-directory-gcmd)
 * [NetCDF Climate and Forecast (CF) ](https://cfconventions.org/cf-conventions/cf-conventions.html)
 * [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/netcdf-templates)
+* [COARDS NetCDF Conventions](https://ferret.pmel.noaa.gov/Ferret/documentation/coards-netcdf-conventions)
 
 [Link to a template (excel sheet)](/resources/PolarWatch_Metadata_Guidance.xlsx)
 
