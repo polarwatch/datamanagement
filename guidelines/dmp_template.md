@@ -5,8 +5,7 @@
 The official NOAA Data Management Handbook was released on October 1, 2024, providing comprehensive guidelines and requirements for managing data throughout its life cycle.  The Appendix C of the Handbook contains Data Management Plan Template (DMP). This DMP template page is intended to provide easy access to the template to support our collaborators in adhering to the guidelines.
 
 * Data Management Handbook : [Link to Complete NOAA Handbook](https://drive.google.com/file/d/1H0Sylq9dlby40xE27ipleWwGgQu6-rDu/view)
-* Appendix C - Data Management Plan Template : [PDF](../resources/NAO212-15B-DMP-template-releaseOct24.pdf) -- [Word](../resources/NAO212-15B-DMP-template-releaseOct24.docx) --  [Markdown](../resources/NAO212-15B-DMP-template-releaseOct24.md)
-
+* Appendix C - Data Management Plan Template : [PDF](../resources/NAO212-15B-DMP-template-releaseOct24.pdf) -- [Word](../resources/NAO212-15B-DMP-template-releaseOct24.docx) --  [Markdown](https://github.com/polarwatch/datamanagement/blob/main/guidelines/dmp_template.md)
 
 
 ### 1.	General Description of Data
