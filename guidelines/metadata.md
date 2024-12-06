@@ -4,7 +4,7 @@
 Here are the metadata guidelines for data products intended for hosting on the PolarWatch ERDDAP Server. The metadata attributes and descriptions are created following the widely recognized industry convention standards, as indicated in the Standard column.
 
 *  [Attribute Convention for Data Discovery(ACDD)](https://wiki.esipfed.org/Attribute_Convention_for_Data_Discovery_1-3)
-* [Global Change Master Directory (GCMD)](https://www.earthdata.nasa.gov/technology/global-change-master-directory-gcmd)
+* [Global Change Master Directory (GCMD) Keyword Viewer](https://gcmd.earthdata.nasa.gov/KeywordViewer/)
 * [NetCDF Climate and Forecast (CF) ](https://cfconventions.org/cf-conventions/cf-conventions.html)
 * [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/netcdf-templates)
 
