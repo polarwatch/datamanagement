@@ -6,6 +6,7 @@ Here are the metadata guidelines for data products intended for hosting on the P
 *  [Attribute Convention for Data Discovery(ACDD)](https://wiki.esipfed.org/Attribute_Convention_for_Data_Discovery_1-3)
 * [Global Change Master Directory (GCMD) Keyword Viewer](https://gcmd.earthdata.nasa.gov/KeywordViewer/)
 * [NetCDF Climate and Forecast (CF) ](https://cfconventions.org/cf-conventions/cf-conventions.html)
+* [NetCDF Compliance Checker Website](https://compliance.ioos.us/index.html)
 * [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/netcdf-templates)
 
 [Link to a template (excel sheet)](/resources/PolarWatch_Metadata_Guidance.xlsx)
