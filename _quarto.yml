@@ -21,6 +21,8 @@ website:
             file: guidelines/ai-ready-data-checklist-v.1.0.md
       - text: "Data List"
         file: data.md    
+      - text: "Resources"
+        file: resource.md
     right:
       - icon: github
         href: https://github.com/polarwatch/datamanagement
