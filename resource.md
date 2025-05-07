@@ -1,6 +1,9 @@
 ### Useful Data Management Resources
 
 #### CF Convention Checker
+
+Online CF checkers allow data creators to upload NetCDF files to verify compliance with CF metadata conventions. If the file is too large to upload, the checker can be downloaded and run locally.
+
 * [IOOS Metadata Checker (online)](https://compliance.ioos.us/index.html)
 * [NetCDF Compliance Checker (downloadable, online)](https://cfconventions.org/software.html)
 
