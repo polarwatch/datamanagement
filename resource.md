@@ -1,5 +1,8 @@
 ### Useful Data Management Resources
 
+### CF Standard Resource
+* [CF Metadata Homepage](https://cfconventions.org/)
+
 #### CF Convention Checker
 
 Online CF checkers allow data creators to upload NetCDF files to verify compliance with CF metadata conventions. If the file is too large to upload, the checker can be downloaded and run locally.
