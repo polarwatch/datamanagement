@@ -291,7 +291,7 @@
     "href": "resource.html",
     "title": "PolarWatch Data Management",
     "section": "",
-    "text": "Useful Data Management Resources\n\n\nCF Standard Resource\n\nCF Metadata Homepage\n\n\nCF Convention Checker\nOnline CF checkers allow data creators to upload NetCDF files to verify compliance with CF metadata conventions. If the file is too large to upload, the checker can be downloaded and run locally.\n\nIOOS Metadata Checker (online)\nNetCDF Compliance Checker (downloadable, online)\n\n\n\nStandard Names & Keywords\n\nCF Standard Name Table\nGlobal Change Master Directory (GCMD) Keyword Viewer"
+    "text": "Useful Data Management Resources\n\n\nCF Standard Resource\n\nCF Metadata\n\n\nCF Convention Checker\nOnline CF checkers allow data creators to upload NetCDF files to verify compliance with CF metadata conventions. If the file is too large to upload, the checker can be downloaded and run locally.\n\nIOOS Metadata Checker (online)\nNetCDF Compliance Checker (downloadable, online)\n\n\n\nStandard Names & Keywords\n\nCF Standard Name Table\nGlobal Change Master Directory (GCMD) Keyword Viewer"
   },
   {
     "objectID": "meta_proj.html",
