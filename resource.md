@@ -1,7 +1,7 @@
 ### Useful Data Management Resources
 
 ### CF Standard Resource
-* [CF Metadata Homepage](https://cfconventions.org/)
+* [CF Metadata](https://cfconventions.org/cf-conventions/cf-conventions.html)
 
 #### CF Convention Checker
 
