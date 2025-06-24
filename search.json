@@ -18,7 +18,7 @@
     "href": "datasets/nsidcG10016v2sh1day/logs.html",
     "title": "Logs: nsidcG10016v2sh1day",
     "section": "",
-    "text": "Logs: nsidcG10016v2sh1day\n\n\n\n\n\n\n\n\n\nDate Logged\nDates Affected\nData Status\nAdditional Note\n\n\n\n\n10/11/2024\n09/12/2024-09/19/2024\nmissing\nfiles technical issue with the ground station that acquires the SSMIS data. Due to the large temporal gap, interpolation (recovery) of the lost data was unsuccessful."
+    "text": "Logs: nsidcG10016v2sh1day\n\n\n\n\n\n\n\n\n\nDate Logged\nDates Affected\nData Status\nAdditional Note\n\n\n\n\n10/11/2024\n09/12/2024-09/19/2024\nmissing\nfiles technical issue with the ground station that acquires the SSMIS data. Due to the large temporal gap, interpolation (recovery) of the lost data was unsuccessful.\n\n\n07/XX/2025\nFuture\ndeprecated\nNewer version (v3) will replace this data product"
   },
   {
     "objectID": "datasets/nesdis_ease2_latlon_1k/dmp.html",
@@ -347,7 +347,7 @@
     "href": "datasets/nsidcG10016v2nh1day/logs.html",
     "title": "Logs: nsidcG10016v2nh1day",
     "section": "",
-    "text": "Logs: nsidcG10016v2nh1day\n\n\n\n\n\n\n\n\n\nDate Logged\nDates Affected\nData Status\nAdditional Note\n\n\n\n\n09/26/2024\n09/12/2024-09/17/2024\nmissing\ntechnical issue with the ground station that acquires the SSMIS data. Due to the large temporal gap, interpolation (recovery) of the lost data was unsuccessful."
+    "text": "Logs: nsidcG10016v2nh1day\n\n\n\n\n\n\n\n\n\nDate Logged\nDates Affected\nData Status\nAdditional Note\n\n\n\n\n09/26/2024\n09/12/2024-09/17/2024\nmissing\ntechnical issue with the ground station that acquires the SSMIS data. Due to the large temporal gap, interpolation (recovery) of the lost data was unsuccessful.\n\n\n07/XX/2025\nFuture\ndeprecated\nNewer version (v3) will replace this data product"
   },
   {
     "objectID": "datasets/nesdis_blendedsic_nhem_daily/ai-ready.html",
